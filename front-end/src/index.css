@@ -1,8 +1,12 @@
+@import url("https://use.typekit.net/dug8moj.css");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +15,104 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+.home {
+  width: 90%;
+}
+}
+@media only screen and (max-width: 512px) {
+.home {
+  width: 100%;
+}
+}
+/* 
+Proxima Nova Bold
+font-family: proxima-nova, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+
+Proxima Nova Bold Italic
+font-family: proxima-nova, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+
+Proxima Nova Regular
+font-family: proxima-nova, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+Proxima Nova Italic
+font-family: proxima-nova, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+
+Proxima Nova Extra Condensed Bold Italic
+font-family: proxima-nova-extra-condensed, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+
+Proxima Nova Extra Condensed Bold
+font-family: proxima-nova-extra-condensed, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+
+Proxima Nova Extra Condensed Italic
+font-family: proxima-nova-extra-condensed, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+
+Proxima Nova Extra Condensed Regular
+font-family: proxima-nova-extra-condensed, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+Proxima Nova Condensed Bold
+font-family: proxima-nova-condensed, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+
+Proxima Nova Condensed Bold Italic
+
+font-family: proxima-nova-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Proxima Nova Condensed Regular
+
+font-family: proxima-nova-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Proxima Nova Condensed Italic
+
+font-family: proxima-nova-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: italic; */
