@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from "../src/components/header/index";
+import About from "../src/components/about/about";
 import Footer from './components/footer';
 
 function App() {
@@ -9,9 +10,9 @@ function App() {
     <div>
         <Header />
     </div>
-    {/* <div>
-        <Body />
-    </div> */}
+    <div>
+        <About />
+    </div>
   </div>
   );
 }
