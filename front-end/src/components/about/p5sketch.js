@@ -6,28 +6,31 @@ class MySketch extends React.Component {
       super(props)
       this.myRef = React.createRef()
     }
-  
     Sketch = (p) => {
-        let x = 100;
-        let y = 100;
-  
-       p.setup = () => {
-        p.createCanvas(720, 400);
-        p.fill(204, 101, 192, 127);
-        p.stroke(127, 63, 120);
-        p.translate(580, 200);
-        p.noStroke();
-        for (let i = 0; i < 10; i ++) {
-            p.ellipse(0, 30, 20, 80);
-            p.rotate(3.14/5);
-        }
+      var width = 1000;
+      var height = 1000
         
+       p.setup = () => {
+        p.background(10,20,30)
+        p.createCanvas(width, height);
+        p.angleMode(p.DEGREES);
+        p.rectMode(p.CENTER);
+        // console.log("set up");    
        }
   
        p.draw = () => {
-        // p.background(0);
-        // p.fill(255);
-        // p.rect(x,y,50,50);
+        p.noFill();
+        p.translate(width/2, height/2);
+        for (var i=0; i<200; i++){
+          p.push()
+          p.rotate(p.sin(p.frameCount +i)*100)
+          var r = p.map(p.sin(p.frameCount), -1, 1, 50, 255)
+          var g = p.map(p.cos(p.frameCount/2), -1, 1, 50, 255)
+          var b = p.map(p.sin(p.frameCount /4), -1, 1, 50, 255)
+          p.stroke(r,g,b)
+          p.rect(0,0,600-i*3,600-i*3,200-i)
+          p.pop()
+        }
        }
     }
   
@@ -36,9 +39,10 @@ class MySketch extends React.Component {
     }
   
     render() {
+      console.log("rendered");
       return (
         <div ref={this.myRef}>
-  
+       
         </div>
       )
     }
