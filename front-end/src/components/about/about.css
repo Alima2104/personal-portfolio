@@ -4,4 +4,10 @@ p {
 
 .aboutme {
     padding: 20vh 10vw;
+    display: block;
+}
+
+.animation-wrapper {
+    padding-top: 30vh;
+    margin-left: 50vw;
 }

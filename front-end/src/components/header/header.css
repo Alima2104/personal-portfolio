@@ -6,6 +6,28 @@
     position: relative;
     align-items: center;
 }
+
+.is-sticky {
+    position: fixed;
+    top: 0;
+    /* width: 100%; */
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 12px;
+    align-items: center;
+    /* box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%); */
+    background-color: #ffffff !important;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.is-sticky .web-menu {
+    padding-left: 20vw;;
+}
+
 .menu{
     background-color: white;
     display: flex;
@@ -13,9 +35,6 @@
     justify-content: flex-end;
 }
 
-.menu-icon{
-    font-size: 24px;
-}
 
 .mobile-menu{
     display: none;
@@ -29,7 +48,7 @@
     display: flex;
     font-size: 36px;
     color: white;
-    background-color: blue;
+    background-color: #317773;
     font-weight: 400;
 }
 
@@ -44,3 +63,4 @@
         font-size: 24px;
     }
 }
+

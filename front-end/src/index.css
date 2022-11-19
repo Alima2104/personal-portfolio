@@ -18,12 +18,14 @@ code {
 
 html {
   scroll-behavior: smooth;
+ 
 }
 .home{
   display: flex;
   flex-direction: column;
   width: 70%;
   margin: auto;
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -36,6 +38,8 @@ html {
   width: 100%;
 }
 }
+
+
 /* 
 Proxima Nova Bold
 font-family: proxima-nova, sans-serif;

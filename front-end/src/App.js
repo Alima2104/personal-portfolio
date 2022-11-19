@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css';
-import Header from "../src/components/header/index";
-import About from "../src/components/about/about";
-// import index from '../src/components/about/graphics/index.html';
-import Work from './components/work';
-import Footer from './components/footer';
+import Home from './components/home/home';
 
-function App() {
+const App = props => {
   return (
-    <div className="home">
-    <div>
-        <Header />
-    </div>
-    <div>
-        <About />
-    </div>
-   {/* <div className='workgrid'> 
-      <Work />
-    </div> */}
-  </div>
+    <Home />
+
+
+    // <Router>
+    //   <Routes>
+    //     <Route path="/about" element={<About />} />
+
+    //     <Route path="/work" element={<Work />} />
+
+    //     <Route path="/contact" element={<Work />} />
+
+    //   </Routes>
+    // </Router>
   );
 }
 
-export default App;
+export default App
+
+
