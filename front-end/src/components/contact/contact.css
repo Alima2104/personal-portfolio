@@ -1,4 +1,19 @@
-.contactsLogos {
-    padding: 20vh 10vw;
-    display: block;
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+.contact-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    
+}
+.contact p {
+    font-size: 30px;
+    font-weight: 700;
 }
