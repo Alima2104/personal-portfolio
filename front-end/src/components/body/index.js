@@ -2,7 +2,7 @@ import React from "react";
 import "./body.css";
 import About from "../about/about";
 import Work from "../work";
-// import Contact from "./contact/index";
+import Contact from "../contact/contact";
 
 function Body() {
   return (
@@ -13,9 +13,9 @@ function Body() {
     <section id="work">
       <Work />
     </section>
-    {/* <section id="contact">
+    <section id="contact">
       <Contact />
-    </section> */}
+    </section>
   </div>
   );
 }

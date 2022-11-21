@@ -1,7 +1,5 @@
 import React from "react";
 import "./about.css";
-import MySketch from './p5sketch'
-// import Header from "../header/index";
 import "./about.scss"
 function About() {
   return (
