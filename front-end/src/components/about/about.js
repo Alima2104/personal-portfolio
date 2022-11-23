@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import "./about.scss"
+
 function About() {
   return (
   <div className="aboutme">
@@ -11,7 +12,8 @@ function About() {
     {/* <div className="sketch">
       <MySketch/>
     </div> */}
-    <div className="animation-wrapper">
+
+    {/* <div className="animation-wrapper">
       <div className="circle"></div>
       <div className="circle"></div>
       <div className="circle"></div>
@@ -44,7 +46,7 @@ function About() {
       <div className="circle"></div>
       <div className="circle"></div>
       <div className="circle"></div>
-      </div>
+      </div> */}
   </div> 
   
 

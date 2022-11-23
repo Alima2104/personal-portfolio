@@ -10,8 +10,6 @@
     letter-spacing: .2rem;
 }
 
-
-
 .web-option a{
     text-decoration: none;
     color: #317773;
@@ -28,14 +26,18 @@
     margin-right: 0px;
 }
 
-a {
+.web-option a {
     box-shadow: inset 0 0 0 0 #317773;
     color: #317773;
     margin: 0 -.25rem;
     padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   }
-  a:hover {
+  .web-option a:hover {
     box-shadow: inset 100px 0 0 0 #317773;
+    color: white;
+  }
+
+  a{
     color: white;
   }

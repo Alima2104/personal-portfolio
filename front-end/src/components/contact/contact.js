@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact.css";
+import ContactForm from "./contactForm";
 import SocialContact from "./social-contact";
 function Contact() {
   return (
@@ -8,6 +9,9 @@ function Contact() {
       <div className="contact-left">
         <p>let's connect!</p>
         <SocialContact />
+        </div>
+        <div className="Contact-Form"> 
+        <ContactForm/>
         </div>
       </div>
     </div>

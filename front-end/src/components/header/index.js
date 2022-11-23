@@ -24,7 +24,7 @@ function Header() {
       <>
        <header className="header-section d-none d-xl-block">
        <div className="header">
-      <div className="logo"> Alima Zhagufarova </div>
+      <div className="logo">  <a href="#start"> Alima Zhagufarova </a></div>
       <div className="menu">
         <div className="web-menu">
           <Web />
