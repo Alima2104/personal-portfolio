@@ -1,8 +1,10 @@
 .footer {
-    padding: 12px;
     display: flex;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     justify-content: center;
-    align-items: center;
     margin-top: 24px;
+    background-color: #317773;
+    color: white;
     
 }

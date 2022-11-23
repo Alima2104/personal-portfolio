@@ -14,30 +14,18 @@ const ContactForm = () => {
     console.log(conFom)
   }
   return (
-    <div className="container mt-5">
-      <h2 className="mb-3">send me an email</h2>
+    <div className="wrapper">
       <form onSubmit={onSubmit}>
-        <div className="mb-3">
-          <label className="form-label" htmlFor="name">
-            Name
-          </label>
-          <input className="form-control" type="text" id="name" required />
-        </div>
-        <div className="mb-3">
-          <label className="form-label" htmlFor="email">
-            Email
-          </label>
-          <input className="form-control" type="email" id="email" required />
-        </div>
-        <div className="mb-3">
-          <label className="form-label" htmlFor="message">
-            Message
-          </label>
-          <textarea className="form-control" id="message" required />
-        </div>
-        <button className="btn btn-danger" type="submit">
+        <div className="Form">
+         <div class="pageTitle title">send me an email! </div>
+         <div class="secondaryTitle title">Please fill this form to send me an email</div>
+          <input className="form-control" type="text" id="name" placeholder="Name" required />
+          <input className="form-control" type="email" id="email" placeholder="Email" required />
+          <textarea className="form-control" id="message" placeholder="Message"  required />
+        <button className="btn submit " type="submit">
           {formStatus}
         </button>
+        </div>
       </form>
     </div>
   )
