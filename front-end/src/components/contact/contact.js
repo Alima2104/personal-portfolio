@@ -10,9 +10,9 @@ function Contact() {
         <p>let's connect!</p>
         <SocialContact />
         </div>
-        <div className="Contact-Form"> 
+        {/* <div className="Contact-Form"> 
         <ContactForm/>
-        </div>
+        </div> */}
       </div>
     </div>
   );
