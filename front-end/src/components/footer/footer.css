@@ -1,10 +1,17 @@
 .footer {
     display: flex;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+   
     justify-content: center;
-    margin-top: 24px;
+    
     background-color: #317773;
+    margin-left: -15vw;;
+    width: 99vw;
     color: white;
     
+}
+
+p{
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+    /* margin-top: 24px; */
 }
