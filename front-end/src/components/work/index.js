@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./style.css";
 import p1 from "./img/enviromental.png"
-import p2 from "./img/interactive.png"
+import p2 from "./img/new_nteractive.png"
 import p3 from "./img/MUSAIK.jpg"
-import p4 from "./img/interactive.png"
-import p5 from "./img/enviromental.png"
+import p4 from "./img/codeChat.png"
+import p5 from "./img/Finding home.png"
 import p6 from "./img/p6.png"
 import { Link } from "react-router-dom";
 
@@ -12,6 +12,11 @@ import { Link } from "react-router-dom";
 function Work() {
     return(
         <>
+        <div className="WorkTab"> 
+        <div className="title"> Projects </div>
+        <div className="description"> Click on the posters to learn more </div>
+        </div>
+       
        
         <div className="grid-container">
             <div className="grid-item"> 

@@ -1,0 +1,23 @@
+.bodyPart {
+    align-content: center;
+}
+
+.bodyPart .title {
+    color: #317773;
+    font-size: 30px;
+    text-align: center;
+}
+.subtitle {
+    color: black;
+    text-align: center;
+}
+
+.maintext {
+    color: black;
+    text-align: center;
+}
+
+.video iframe {
+    margin-left:  25% ;
+}
+
