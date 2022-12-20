@@ -5,7 +5,7 @@
 }
 .web-option{
     font-size: 20px;
-    margin-right: 10vw;
+    margin-right: 7vw;
     font-weight: 500;
     letter-spacing: .2rem;
 }
@@ -34,7 +34,7 @@
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   }
   .web-option a:hover {
-    box-shadow: inset 100px 0 0 0 #317773;
+    box-shadow: inset 150px 0 0 0 #317773;
     color: white;
   }
 

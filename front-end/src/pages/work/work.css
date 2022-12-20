@@ -1,0 +1,47 @@
+.WorkTab .title {
+    color: #317773;
+    padding: 10vh 0 0 0;
+    font-size: 35px;
+    text-align: center;
+    
+  }
+  
+  .description {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+  
+  }
+  
+  .containerForWorks .grid-container {
+      display: inline-grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      background-color: white;
+      
+      padding: 5vh 0;
+      column-gap: 1vw;
+      row-gap: 10px;
+  
+    }
+    
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 0px solid blue;
+      /* padding: 10vh 10vw 10vh 10vw; */
+      font-size: 30px;
+      text-align: center;
+    }
+  
+    img {
+      object-fit: cover;
+      width: 100%;
+    }
+
+    figcaption {
+        color: black;
+        font-size: 10px;
+    }
+
+    figcaption h{
+        font-weight: 600;
+    }

@@ -1,0 +1,30 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-top: 35vh;
+    padding-bottom: 25vh;
+}
+
+.contact-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+.contact p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact-container a{
+  background-color:#317773;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+

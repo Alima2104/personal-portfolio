@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./header.css";
 import Mobile from "./mobile";
 import Web from "./web/index";
+import { Link } from "react-router-dom";
 
 
 function Header() {
@@ -24,7 +25,7 @@ function Header() {
       <>
        <header className="header-section d-none d-xl-block">
        <div className="header">
-      <div className="logo">  <a href="#start"> Alima Zhagufarova </a></div>
+      <div className="logo">   <Link to="/"> Alima Zhagufarova </Link>  </div>
       <div className="menu">
         <div className="web-menu">
           <Web />
