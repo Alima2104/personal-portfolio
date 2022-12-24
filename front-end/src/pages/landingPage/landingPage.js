@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/header";
 import Keyboard from "../../components/landing page/keyboard";
 import "./landingPage.css";
+import { Link } from "react-router-dom";
 
 
 function LandingPage() {
@@ -19,17 +20,18 @@ function LandingPage() {
         </div>
         <div class="item2">
           <div className="ShortDescription">
-            Hello, it's me. <br/>
-            Nice to meet you all. 
+            Hey, my name is Alima. <br/>
+            A Ready-to-be UX/UI Designer with Multidisciplinary Design and Coding Experiences. <br/>
+            Please, feel free explore this page. 
         </div>
         </div>
         <div class="item3">
-          
-          <ul id="Buttons">
-             <li class="newbutton"> <button class="button-19" role="button">Read more about me</button> </li>
-             <li class="newbutton"> <button class="button-19" role="button">See works</button> </li>
-             <li class="newbutton"> <button class="button-19" role="button">see more works</button> </li>
-             </ul>
+        <div className="ShortDescription">
+
+          Click <Link to="/about">here</Link> if you want to read more about me, <br/>
+          <Link to="/Work">here</Link> if you want to see my work, <br/>
+          and <Link to="/alsoWork">here</Link> if you want to see even more from me.
+          </div>
         </div>  
       
       </div>

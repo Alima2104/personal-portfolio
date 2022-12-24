@@ -3,10 +3,18 @@ p {
 }
 
 .aboutme {
-    padding: 35vh 10vw ;
+    padding: 20vh 10vw ;
     display: block;
 
 }
+
+.pic{
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+    width: 10vw;
+}
+
 
 .animation-wrapper {
     padding-top: 30vh;

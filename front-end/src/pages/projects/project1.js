@@ -10,9 +10,18 @@ function Project1Description() {
         <Header />
     </div>
     <div className = "bodyPart">
+      <div id="bannerimage"></div>
       <div className="title"> 
-      <p>1st Project</p>
+      <p>Project Name</p>
       </div>
+      <hr class="rounded"/>
+      <div className="ShortDescription">
+        <p> <a className="bold"> Role:</a> lorem ipsum <br/>
+          <a className="bold"> Team:</a> lorem ipsum, lorem ipsum, lorem ipsum <br/>
+          <a className="bold"> Date:</a> lorem ipsum <br/>
+          <a className="bold"> Tools:</a> lorem ipsum, lorem ipsum, lorem ipsum
+      </p>
+        </div>  
     </div>
   </div>
   );

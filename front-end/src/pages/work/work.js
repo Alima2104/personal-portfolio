@@ -21,7 +21,7 @@ function Works() {
         <div className="grid-container">
             <div className="grid-item"> 
                <Link to="/project1">
-               <figure>
+               <figure  >
                   <img src={p2} />
                   <figcaption>
                     <h> Name of the Project </h> <br/>

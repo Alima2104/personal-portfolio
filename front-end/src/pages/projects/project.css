@@ -4,8 +4,9 @@
 
 .bodyPart .title {
     color: #317773;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
+    font-family: proxima-nova-extra-condensed, sans-serif;
 }
 .subtitle {
     color: black;
@@ -21,3 +22,28 @@
     margin-left:  25% ;
 }
 
+#bannerimage {
+    width: 100%;
+    background-image: url('banner.jpeg');
+    height: 25vh;
+    background-color: purple;
+    background-position: center;
+  }
+
+.ShortDescription p{
+    text-align: center;
+    font-size: 12px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+  }
+
+.ShortDescription {
+    margin: auto;
+}
+
+/* Rounded border */
+hr.rounded {
+    width: 80%;
+    border-top: 5px solid #317773;
+    border-radius: 4px;
+  }

@@ -35,6 +35,7 @@
     img {
       object-fit: cover;
       width: 100%;
+      
     }
 
     figcaption {
@@ -44,4 +45,8 @@
 
     figcaption h{
         font-weight: 600;
+    }
+
+    .grid-item img:hover{
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     }

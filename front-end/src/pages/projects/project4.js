@@ -14,7 +14,7 @@ function Project4Description() {
     <p>"You Are the Problem"</p>
     </div>
     <div className="subtitle"> 
-    <p>VR simulation that explores something inside something</p>
+    <p>VR simulation that explores fast fashion through interaction</p>
     </div> 
     <div className="video">
     <Vimeo
