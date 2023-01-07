@@ -18,7 +18,7 @@ html {
   grid-area: buttons; 
 }
 
-.home .grid-container {
+.home .land .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 2fr ;
   grid-template-areas:
@@ -34,7 +34,7 @@ html {
   padding: 10vh 0;
 }
 
-.grid-container > div {
+.home .land .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;

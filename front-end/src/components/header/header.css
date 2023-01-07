@@ -11,26 +11,11 @@ a {
     text-decoration: none;
 }
 
-.is-sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-    display: flex;
-    justify-content: space-between;
-    flex: 1;
-    padding: 12px;
-    align-items: center;
-    /* box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%); */
-    background-color: #ffffff !important;
-    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
 
-.is-sticky .web-menu {
-    padding-left: 20vw;;
-}
+
+/* .is-sticky .web-option {
+    margin-left: 7vw;
+} */
 
 .menu{
     background-color: white;
@@ -45,6 +30,7 @@ a {
 }
 .web-menu{
     display: flex;
+
 }
 
 .logo{
@@ -56,6 +42,32 @@ a {
     font-weight: 400;
 }
 
+
+
+.is-sticky {
+    position: fixed;
+    top: 0;
+    /* width: 100%; */
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 12px;
+    align-items: center;
+    /* box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%); */
+    background-color: #ffffff !important;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.is-sticky .web-menu {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 8vw;
+}
 @media only screen and (max-width: 720px) {
     .mobile-menu{
         display: flex;

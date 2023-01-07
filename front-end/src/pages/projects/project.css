@@ -22,13 +22,6 @@
     margin-left:  25% ;
 }
 
-#bannerimage {
-    width: 100%;
-    background-image: url('banner.jpeg');
-    height: 25vh;
-    background-color: purple;
-    background-position: center;
-  }
 
 .ShortDescription p{
     text-align: center;

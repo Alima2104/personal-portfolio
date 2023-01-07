@@ -12,6 +12,8 @@ function LandingPage() {
           <Header />
       </div>
 
+      <div className="land"> 
+
       <div class="grid-container">
         <div class="item1">
         <div className="roomContainer">
@@ -35,6 +37,11 @@ function LandingPage() {
         </div>  
       
       </div>
+      
+      
+      </div>
+
+      
     </div>
     );
   }

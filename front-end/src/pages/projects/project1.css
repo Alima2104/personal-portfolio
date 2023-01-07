@@ -1,0 +1,145 @@
+.bodyPart {
+    align-content: center;
+}
+
+.bodyPart .title {
+    color: #317773;
+    font-size: 50px;
+    text-align: center;
+    font-family: proxima-nova-extra-condensed, sans-serif;
+    letter-spacing: 0.2rem;
+}
+.subtitle {
+    color: black;
+    text-align: center;
+}
+
+.maintext {
+    color: black;
+    text-align: center;
+}
+
+
+.iitem1 { 
+    grid-area: desc1; 
+  }
+  .iitem2 { 
+    grid-area: pic1; 
+  }
+  .iitem3 { 
+    grid-area: desc2; 
+  }
+  .iitem4 { 
+    grid-area: desc3; 
+  }
+  .iitem5 { 
+    grid-area: desc4; 
+  }
+  .iitem6 { 
+    grid-area: pic2; 
+  }
+  .iitem7 { 
+    grid-area: desc5; 
+  }
+  .iitem8{
+    grid-area: desc6; 
+}
+  .iitem9{
+    grid-area: vid1; 
+}
+
+.iitem10{
+    grid-area: desc7;
+}
+
+  
+  .home .project1 .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'desc1 desc1'
+      'desc1 desc1'
+      'desc2 desc2'
+      'desc2 desc2 '
+      'desc3 desc3'
+      'desc3 desc3'
+      'desc4 pic2'
+      'desc4 pic2'
+      'desc5 desc5'
+      'desc6 vid1'
+      'desc6 vid1'
+      'desc7 desc7';
+    gap: 1vw;
+    padding: 5vh 0;
+  }
+  
+  .home .project1 .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 17px;
+    font-weight: 300;
+  }
+
+.video iframe {
+    margin-left:  25% ;
+}
+
+.sectionName {
+    color: #317773;
+    font-size: 40px;
+    text-align: center;
+    font-family: proxima-nova-extra-condensed, sans-serif;
+    /* letter-spacing: 0.2rem; */
+}
+
+#bannerimage {
+    width: 100%;
+    background-image: url('temporarybanner.jpeg');
+    height: 25vh;
+    background-color: purple;
+    background-position: center;
+  }
+
+  #thisImage {
+    background-image: url('pic1.jpeg');
+    background-color: purple;
+    background-position: center;
+    height: 35vh;
+
+  }
+
+  #thisImage2 {
+    background-image: url('pic1.jpeg');
+    background-color: purple;
+    background-position: center;
+    height: 35vh;
+
+  }
+
+.ShortDescription p{
+    text-align: center;
+    font-size: 12px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+  }
+
+.ShortDescription {
+    margin: auto;
+}
+
+.ShortDescription .bold {
+    display: inline;
+    color: #317773;
+    font-weight: 700;
+
+}
+
+/* Rounded border */
+hr.rounded {
+    width: 80%;
+    border-top: 3x solid #317773;
+    border-radius: 4px;
+  }
+
+
