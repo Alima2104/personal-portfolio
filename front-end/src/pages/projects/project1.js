@@ -11,20 +11,21 @@ function Project1Description() {
     </div>
     <div className = "bodyPart">
       <div id="bannerimage"></div>
-      <div className="title"> 
-      <p>Musaik</p>
+      <div className="title1"> 
+      <p>MUSAIK</p>
       </div>
-      <hr class="rounded"/>
-      <div className="ShortDescription">
-        <p> <div className="bold"> Role:</div> full stack software developer, UX/UI designer <br/>
+        <div className="project1"> 
+        <div class="grid-container ">
+          <div class="iitem0">
+          <div className="ShortDescription1">
+          <p> <div className="bold"> Role:</div> full stack software developer, UX/UI designer <br/>
           <div className="bold"> Team:</div> Zain, Jeongin, Ahmad, Chinedu <br/>
           <div className="bold"> Date:</div> September-December 2022 <br/>
           <div className="bold"> Tools:</div> Figma, React.js, Express.js, Node.js, Docker, MongoDB
       </p>
         </div> 
 
-        <div className="project1"> 
-        <div class="grid-container ">
+          </div>
         <div class="iitem1">
           <div className="GenDescription"> 
           The Musaik team has a vision of making connection through music a much easier process. We want our users to view our app as a hub for finding and connecting with others that share the same musical taste.

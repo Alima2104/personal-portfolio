@@ -1,0 +1,188 @@
+.bodyPart {
+    align-content: center;
+}
+
+.bodyPart .title {
+    color: #317773;
+    font-size: 50px;
+    text-align: center;
+    font-family: proxima-nova-extra-condensed, sans-serif;
+    letter-spacing: 0.2rem;
+}
+.subtitle {
+    color: black;
+    text-align: center;
+}
+
+.maintext {
+    color: black;
+    text-align: center;
+}
+
+.iiitem0{
+  grid-area:roles;
+}
+.iiitem1 { 
+    grid-area: desc1; 
+  }
+  .iiitem2 { 
+    grid-area: pic1; 
+  }
+  .iiitem3 { 
+    grid-area: desc2; 
+  }
+
+  .iiitem3_1 {
+    grid-area: research;
+  }
+
+  .iiitem3_5 {
+    grid-area: quote;
+  }
+  .iiitem4 { 
+    grid-area: desc3; 
+  }
+  .iiitem4_4 {
+    grid-area: probe;
+  }
+  .iiitem5 { 
+    grid-area: desc4; 
+  }
+  .iiitem6 { 
+    grid-area: zoom; 
+  }
+  .iiitem7 { 
+    grid-area: desc5; 
+  }
+  .iiitem8{
+    grid-area: desc6; 
+}
+  .iiitem9{
+    grid-area: HMW; 
+}
+
+.iiitem10{
+    grid-area: desc7;
+}
+.iiitem11 {
+  grid-area: persona1;
+}
+.iiitem12 {
+  grid-area: persona2;
+}
+.iiitem13 {
+  grid-area: desc8;
+}
+.iiitem14 {
+  grid-area: journey;
+}
+.iiitem15 {
+  grid-area: desc9;
+}
+.iiitem16 {
+  grid-area: prototyping;
+}
+  
+  .home .project2 .grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'roles desc1'
+      'roles desc1'
+      'research research'
+      'desc2 quote'
+      'desc2 quote '
+      'probe desc3'
+      'probe desc3'
+      'desc4 zoom'
+      'desc4 zoom'
+      'desc5 desc5'
+      'desc6 HMW'
+      'desc6 HMW'
+      'desc7 desc7'
+      'persona1 persona2'
+      'persona1 persona2'
+      'desc8 desc8'
+      'journey journey'
+      'journey journey'
+      'desc9 desc9'
+      'prototyping prototyping';
+    gap: 1vw;
+    padding: 5vh 0;
+  }
+  
+  .home .project2 .grid-container2 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 17px;
+    font-weight: 300;
+  }
+
+.video iframe {
+    margin-left:  25% ;
+}
+
+.sectionName {
+    color: #317773;
+    font-size: 40px;
+    text-align: center;
+    font-family: proxima-nova-extra-condensed, sans-serif;
+    /* letter-spacing: 0.2rem; */
+}
+
+#bannerimage {
+    width: 100%;
+    background-image: url('banner21.jpeg');
+    height: 25vh;
+    background-color: purple;
+    background-position: center;
+  }
+
+  #thisImage {
+    background-image: url('pic1.jpeg');
+    background-color: purple;
+    background-position: center;
+    height: 35vh;
+
+  }
+
+  #thisImage2 {
+    background-image: url('pic1.jpeg');
+    background-color: purple;
+    background-position: center;
+    height: 35vh;
+
+  }
+
+.ShortDescription2 p{
+    text-align: center;
+    font-size: 12px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+  }
+
+.ShortDescription2 {
+    margin: auto;
+}
+
+.ShortDescription2 .bold {
+    display: inline;
+    color: #317773;
+    font-weight: 700;
+
+}
+
+.quote1{
+    text-align: center;
+    font-size: 30px;
+    color: #317773;
+    font-weight: 600;
+}
+
+/* Rounded border */
+/* hr.rounded {
+    width: 80%;
+    border-top: 3x solid #317773;
+    border-radius: 4px;
+  } */

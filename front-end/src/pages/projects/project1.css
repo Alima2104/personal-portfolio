@@ -2,12 +2,17 @@
     align-content: center;
 }
 
-.bodyPart .title {
-    color: #317773;
+.bodyPart .title1 {
+    color: #FB8F67;
     font-size: 50px;
     text-align: center;
     font-family: proxima-nova-extra-condensed, sans-serif;
     letter-spacing: 0.2rem;
+}
+
+.title1 p {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .subtitle {
     color: black;
@@ -19,7 +24,9 @@
     text-align: center;
 }
 
-
+.iitem0 {
+  grid-area:roles;
+}
 .iitem1 { 
     grid-area: desc1; 
   }
@@ -57,8 +64,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      'desc1 desc1'
-      'desc1 desc1'
+      'roles desc1'
+      'roles desc1'
       'desc2 desc2'
       'desc2 desc2 '
       'desc3 desc3'
@@ -86,7 +93,7 @@
 }
 
 .sectionName {
-    color: #317773;
+    color: #FB8F67;
     font-size: 40px;
     text-align: center;
     font-family: proxima-nova-extra-condensed, sans-serif;
@@ -95,7 +102,7 @@
 
 #bannerimage {
     width: 100%;
-    background-image: url('temporarybanner.jpeg');
+    background-image: url('banner21.jpeg');
     height: 25vh;
     background-color: purple;
     background-position: center;
@@ -117,29 +124,23 @@
 
   }
 
-.ShortDescription p{
+.ShortDescription1 p{
     text-align: center;
     font-size: 12px;
     font-family: proxima-nova, sans-serif;
     font-weight: 400;
   }
 
-.ShortDescription {
+.ShortDescription1 {
     margin: auto;
 }
 
-.ShortDescription .bold {
+.ShortDescription1 .bold {
     display: inline;
-    color: #317773;
+    color: #FB8F67;
     font-weight: 700;
 
 }
 
-/* Rounded border */
-hr.rounded {
-    width: 80%;
-    border-top: 3x solid #317773;
-    border-radius: 4px;
-  }
 
 

@@ -1,0 +1,130 @@
+.bodyPart {
+    align-content: center;
+    font-weight: 500;
+}
+
+.bodyPart .title {
+    color: #317773;
+    font-size: 50px;
+    text-align: center;
+    font-family: proxima-nova-extra-condensed, sans-serif;
+}
+.subtitle {
+    color: black;
+    text-align: center;
+}
+
+.maintext {
+    color: black;
+    text-align: center;
+}
+
+.part1 { 
+    grid-area: genDesc; 
+  }
+  .part2 { 
+    grid-area: Desc1; 
+  }
+  .part3 { 
+    grid-area: photo1; 
+  }
+  .part4 { 
+    grid-area: Desc2; 
+  }
+  .part5 { 
+    grid-area: photo2; 
+  }
+  .part6 {
+    grid-area: Desc3;
+  }
+  .part7 {
+    grid-area:photo3;
+  }
+
+  .home .project6 .grid-container6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'genDesc genDesc'
+      'Desc1 photo1'
+      'Desc1 photo1'
+      'photo2 Desc2'
+      'photo2 Desc2'
+      'Desc3 photo3'
+      'Desc3 photo3'
+      ;
+    gap: 1vw;
+    padding: 5vh 0;
+  }
+  
+  .home .project1 .grid-container6 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 17px;
+    font-weight: 300;
+  }
+
+.video iframe {
+    margin-left:  25% ;
+}
+
+
+.ShortDescription p{
+    text-align: center;
+    font-size: 12px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+  }
+
+.ShortDescription {
+    margin: auto;
+}
+
+.projectDesc{
+  align-content: center;
+  margin-top:5vh;
+}
+
+#image1  {
+  background-image: url('wb1.png');
+  background-color: purple;
+  background-position: center;
+  background-size: auto 35vh;
+  height: 35vh;
+  width: auto;
+}
+
+#image2  {
+  background-image: url('wb2.png');
+  background-color: purple;
+  background-position: center;
+  background-size: auto 35vh;
+  height: 35vh;
+  width: auto;
+}
+#image3  {
+  background-image: url('wb3.png');
+  background-color: purple;
+  background-position: center;
+  background-size: auto 35vh;
+  height: 35vh;
+  width: auto;
+}
+
+/* Rounded border */
+/* hr.rounded {
+    width: 80%;
+    border-top: 5px solid #317773;
+    border-radius: 4px;
+  } */
+
+  #image1:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+#image2:hover{
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+#image3:hover{
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}

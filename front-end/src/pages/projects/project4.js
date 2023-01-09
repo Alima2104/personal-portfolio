@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/header";
-import "./project.css";
+import "./project6.css";
 import Vimeo from '@u-wave/react-vimeo';
 
 function Project4Description() {
