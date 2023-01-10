@@ -1,0 +1,54 @@
+.bodyPart {
+    align-content: center;
+    font-weight: 500;
+}
+
+.bodyPart .title {
+    color: #317773;
+    font-size: 50px;
+    text-align: center;
+    font-family: proxima-nova-extra-condensed, sans-serif;
+}
+
+.pppart1 { 
+    grid-area: genDesc; 
+  }
+.pppart2 { 
+    grid-area: Desc1; 
+    color: black;
+  }
+  .pppart3 { 
+    grid-area: editor; 
+  }
+  
+  .home .project5 .grid-container5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'genDesc genDesc genDesc '
+      'Desc1  Desc1 Desc1  '
+      'editor editor editor'
+      'editor editor editor'
+      'editor editor editor'
+      ;
+    gap: 1vw;
+    padding: 1vh 0;
+  }
+  
+  .home .project5 .grid-container5 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 17px;
+    font-weight: 300;
+  }
+
+.projectDesc{
+  align-content: center;
+  margin-top:5vh;
+}
+
+iframe {
+    width: 50vw;
+    height: 80vh
+} 

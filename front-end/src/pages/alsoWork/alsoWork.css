@@ -13,7 +13,7 @@
   
   }
   
-  .body .grid-container {
+  .body .grid-container21 {
       display: inline-grid;
       grid-template-columns: 1fr 1fr 1fr;
       background-color: white;
@@ -40,8 +40,10 @@
     figcaption {
         color: black;
         font-size: 10px;
+        font-weight: 400;
     }
 
     figcaption h{
         font-weight: 600;
+        font-size: 20px;
     }

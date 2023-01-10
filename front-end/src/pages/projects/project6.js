@@ -41,7 +41,6 @@ The story itself is short and funny, and it is told using comics style. [add som
           <div id="image1">
           </div>
         </div>
-
         <div class="part4" data-aos="fade-left">
         <div className="projectDesc"> 
         “Turbulence” - is a simple looking website where the only thing u see on the screen most of the time is this airplane which takes off with the crew and passengers on board. However, please were headphones and listen to the audio carefully - visuals here are just the support for the main story. And I hope you will appreciate the hilarious contrast between the drawing style and the content of the audio. No spoilers!

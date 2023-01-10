@@ -2,6 +2,13 @@ import React from "react";
 import Header from "../../components/header";
 import "./project2.css";
 import Vimeo from '@u-wave/react-vimeo';
+import p1 from "./up1.png";
+import p2 from "./up2.png";
+import p3 from "./journeymap.png";
+import hmw from "./img/hmw.png";
+import b1 from "./img/brainstorming1.png";
+import b2 from "./img/brainstorming2.png";
+import b3 from "./img/brainstorming3.png";
 
 function Project2Description() {
   return ( 
@@ -91,7 +98,9 @@ We talked to 6 students at this stage and realized that all of them feel helples
         </div>
 
         <div class="iiitem9">
-         <div id="thisImage2"></div>
+         <div id="howmightwe">
+         <img src={hmw} />
+         </div>
         </div>
 
         <div className="iiitem10">
@@ -101,11 +110,15 @@ We talked to 6 students at this stage and realized that all of them feel helples
         </div>
 
         <div class="iiitem11">
-         <div id="thisImage2"></div>
+         <div id="userpersona1">
+         <img src={p1} />
+         </div>
         </div>
 
         <div class="iiitem12">
-         <div id="thisImage2"></div>
+         <div id="userpersona2">
+         <img src={p2} />
+         </div>
         </div>
 
         <div className="iiitem13">
@@ -115,7 +128,9 @@ We talked to 6 students at this stage and realized that all of them feel helples
         </div>
 
         <div class="iiitem14">
-         <div id="thisImage2"></div>
+         <div id="userjourney">
+         <img src={p3} />
+         </div>
         </div>
 
         <div className="iiitem15">
@@ -126,6 +141,28 @@ We didn’t want to invent the wheel, and reframed the purpose of our project to
 We left the ideation phase this time with 3 prototype ideas: VR program that imitates the case of an emergency for students to prepare for it, a booklet with all the necessary information in an easily accessible place, and a kit.
 
         </div>
+        </div>
+
+        <div class="iiitem15_1">
+         <div id="brainstorming">
+         <img src={b1} />
+         </div>
+        </div>
+        <div class="iiitem15_2">
+         <div id="brainstorming">
+         <img src={b2} />
+         </div>
+        </div>
+        <div class="iiitem15_3">
+         <div id="brainstorming">
+         <img src={b3} />
+         </div>
+        </div>
+        <div class="iiitem15_4">
+         <div id="brainstorming">
+          Here are brainstorming fjksdd oijfksldlsad ofjskdld fjodskl jfakdls fajkdsl fhjdkwep [ewpoddkl dksjl.
+         
+         </div>
         </div>
 
         <div class="iiitem16">

@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../../components/header";
-import "./project6.css";
-import Vimeo from '@u-wave/react-vimeo';
+import "./project5.css";
 
 function Project5Description() {
   return ( <div className="home">
@@ -10,15 +9,32 @@ function Project5Description() {
     </div>
     <div className = "bodyPart">
       <div className="title"> 
-      <p>"Finding Home"</p>
+      <p>Finding Home</p>
       </div>
-      <div className="subtitle"> 
-      <p>p5.js based simulation</p>
-      </div> 
-       
-        <div className = "mainText">
-          <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? </p>
+      <div className="project5"> 
+        <div class="grid-container5 ">
+        <div class="pppart1">
+          <div className="GenDescription"> 
+             VR simulation that explores problem of fast fashion through the interaction
+          </div>
         </div>
+
+        <div class="pppart2">
+        <div className="projectDesc"  > 
+        “The Goodest Boy” - is a story about a lovely Shiba called Bark who is home alone when his owner goes to work and something happens to him during this time. 
+The story itself is short and funny, and it is told using comics style. [add something about comics from the readings]
+        </div>
+        </div> 
+
+        <div class="pppart3"  >
+        <div className="editor">
+        <iframe src="https://editor.p5js.org/alima21/full/Y227mV9CC">
+          </iframe> 
+        </div>
+      </div> 
+
+        </div> 
+        </div> 
     </div>
   </div>
   );

@@ -24,8 +24,8 @@ function Works() {
                <figure  >
                   <img src={p2} />
                   <figcaption>
-                    <h> Name of the Project </h> <br/>
-                    Caption goes here
+                    <h> MUSAIK </h> <br/>
+                    The app that connects through music
                     </figcaption>
                 </figure>
                  </Link>  
@@ -35,8 +35,8 @@ function Works() {
                <Link to="/project2">
                <figure>
                <img src={p2} />
-                  <figcaption><h> Name of the Project </h> <br/>
-                    Caption goes here
+                  <figcaption><h> Super Emergency Kit </h> <br/>
+                    The solution to help students feel safer
                     </figcaption>
                 </figure>
                 </Link>  
@@ -45,8 +45,8 @@ function Works() {
                <Link to="/project3">
                <figure>
                <img src={p2} />
-                  <figcaption><h> Name of the Project </h> <br/>
-                    Caption goes here</figcaption>
+                  <figcaption><h> CodeChat </h> <br/>
+                    A social business idea that will make quality CS education more accessible </figcaption>
                 </figure> </Link>  
             </div>
             

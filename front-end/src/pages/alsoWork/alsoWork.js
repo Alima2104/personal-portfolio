@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../../components/header";
-import p1 from "./img/p1.jpeg";
-import p2 from "./img/p2.jpeg";
-import p3 from "./img/p3.jpeg";
+import p1 from "./img/firstmore.png";
+import p2 from "./img/secondmore.png";
+import p3 from "./img/thirdmore.jpg";
 import p4 from "./img/p4.jpeg";
 import p5 from "./img/p1.jpeg";
 import p6 from "./img/p2.jpeg";
@@ -21,14 +21,14 @@ function AlsoWorks() {
         <div className="description"> Click on them to learn more! </div>
         </div> 
         <div className="containerForWorks"> 
-        <div className="grid-container">
+        <div className="grid-container21">
             <div className="grid-item"> 
                <Link to="/project4">
                <figure>
-                  <img src={p2} />
+                  <img src={p1} />
                   <figcaption>
-                    <h> Name of the Project </h> <br/>
-                    Caption goes here
+                    <h> You Are The Problem </h> <br/>
+                    VR simulation that explores fast fashion
                     </figcaption>
                 </figure>
                  </Link>  
@@ -38,8 +38,8 @@ function AlsoWorks() {
                <Link to="/project5">
                <figure>
                <img src={p2} />
-                  <figcaption><h> Name of the Project </h> <br/>
-                    Caption goes here
+                  <figcaption><h> Finding Home </h> <br/>
+                    Simulation in p5.js that uses genetic algorithm
                     </figcaption>
                 </figure>
                 </Link>  
@@ -47,9 +47,9 @@ function AlsoWorks() {
             <div className="grid-item"> 
                <Link to="/project6">
                <figure>
-               <img src={p2} />
-                  <figcaption><h> Name of the Project </h> <br/>
-                    Caption goes here</figcaption>
+               <img src={p3} />
+                  <figcaption><h> Interactive Wedsites </h> <br/>
+                    Three websites that explore interactivity through different mediums</figcaption>
                 </figure> </Link>  
             </div>
             
