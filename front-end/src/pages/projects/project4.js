@@ -23,8 +23,7 @@ function Project4Description() {
         </div>
         <div class="ppart2">
         <div className="projectDesc" > 
-        “The Goodest Boy” - is a story about a lovely Shiba called Bark who is home alone when his owner goes to work and something happens to him during this time. 
-The story itself is short and funny, and it is told using comics style. [add something about comics from the readings]
+        The simulation, created in Unity VR, aimed to educate users on the impacts of fast fashion through interactive scenes. Scene one placed users in a science-fiction setting where they see many television sets and posters that showcase environmental problems. Scene two transported users to a virtual store where they were able to see the consequences of their purchasing choices, such as the depletion of resources and pollution caused by the disposal of cheap clothing. Users were able to move objects in the scene. The mini script included a voiceover, highlighting the key takeaways of the simulation, such as the importance of sustainable fashion and the power of consumer choice. Overall, the simulation aimed to raise awareness and encourage more conscious consumption habits through interactivity.
         </div>
         
         </div>  

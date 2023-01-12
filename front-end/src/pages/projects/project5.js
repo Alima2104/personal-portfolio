@@ -15,14 +15,15 @@ function Project5Description() {
         <div class="grid-container5 ">
         <div class="pppart1">
           <div className="GenDescription"> 
-             VR simulation that explores problem of fast fashion through the interaction
+             Simulation in p5.js that demontrates the work of genetic algorithm.
           </div>
         </div>
 
         <div class="pppart2">
         <div className="projectDesc"  > 
-        “The Goodest Boy” - is a story about a lovely Shiba called Bark who is home alone when his owner goes to work and something happens to him during this time. 
-The story itself is short and funny, and it is told using comics style. [add something about comics from the readings]
+        The simulation, created in p5.js, demonstrates the concept of a genetic algorithm through the use of machine learning. The simulation features a batch of astronauts attempting to learn the optimal way to fly back to Earth
+The simulation starts with a randomly generated group of astronauts, each with their own unique set of "genes" representing their flight techniques. As the simulation runs, the astronauts undertake a series of virtual "flights" and are scored based on their performance. The highest-performing astronauts are selected to "breed" and pass on their genes to the next generation. This process continues, with each new generation of astronauts building on the successful traits of the previous generation, and discarding less successful ones. Over time, the population of astronauts evolves to become more efficient and skilled at flying back to Earth.
+Users are able to observe the simulation as it progresses, watching as the population of astronauts improves and the optimal flight technique emerges. The simulation also provides visual representation of the genetic algorithm, such as graphs of the average fitness of the population over time, and highlighting the genes of the fittest individuals. The simulation provides an interactive way of understanding how genetic algorithm works in machine learning and how it can be applied in real world scenarios.
         </div>
         </div> 
 

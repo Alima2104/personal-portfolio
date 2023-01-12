@@ -9,6 +9,7 @@ import hmw from "./img/hmw.png";
 import b1 from "./img/brainstorming1.png";
 import b2 from "./img/brainstorming2.png";
 import b3 from "./img/brainstorming3.png";
+import zoom from "./img/zoom.png";
 
 function Project2Description() {
   return ( 
@@ -83,7 +84,9 @@ We talked to 6 students at this stage and realized that all of them feel helples
         </div>
         </div>
         <div class="iiitem6">
-         <div id="thisImage2"></div>
+         <div id="thisImage2">
+         <img src={zoom} />
+         </div>
         </div>
 
         <div className="iiitem7">
