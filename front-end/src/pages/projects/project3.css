@@ -1,0 +1,124 @@
+.bodyPart {
+    align-content: center;
+}
+
+.bodyPart .title3 {
+    color: #317773;
+    font-size: 50px;
+    text-align: center;
+    font-family: proxima-nova-extra-condensed, sans-serif;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0;
+}
+
+.maintext {
+    color: black;
+    text-align: center;
+}
+
+.title3 p {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+.GenDescription {
+    margin-top: 0;
+}
+
+.tem1{
+    grid-area: genDesc;
+    margin-top: 0;
+}
+
+.tem2{
+    grid-area: second;
+}
+.tem3{
+    grid-area: third;
+}
+.tem4{
+    grid-area: forth;
+}
+.tem5{
+    grid-area: fifth;
+}
+.tem6{
+    grid-area: sixth;
+}
+
+
+.home .project3 .grid-container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'genDesc genDesc'
+      'second second'
+      'third third'
+      'forth forth'
+      'fifth fifth'
+      'sixth sixth';
+    gap: 1vw;
+    padding: 5vh 0;
+    font-family: minion, sans-serif;
+    text-align: justify;
+  }
+
+  .home .project3 .grid-container3 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  #secondSlide {
+    display: block;
+    background-image: url('img/2.png');
+    background-color: white;
+    background-position: center;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+
+  #thirdSlide {
+    display: block;
+    background-image: url('img/3.png');
+    background-color: white;
+    background-position: center;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #fourthSlide {
+    display: block;
+    background-image: url('img/4.png');
+    background-color: white;
+    background-position: center;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #fifthSlide {
+    display: block;
+    background-image: url('img/5.png');
+    background-color: white;
+    background-position: center;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #sixthSlide {
+    display: block;
+    background-image: url('img/6.png');
+    background-color: white;
+    background-position: center;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }

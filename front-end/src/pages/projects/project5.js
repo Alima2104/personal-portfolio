@@ -8,16 +8,16 @@ function Project5Description() {
         <Header />
     </div>
     <div className = "bodyPart">
-      <div className="title"> 
+      <div className="title5"> 
       <p>Finding Home</p>
       </div>
       <div className="project5"> 
         <div class="grid-container5 ">
-        <div class="pppart1">
+        {/* <div class="pppart1">
           <div className="GenDescription"> 
              Simulation in p5.js that demontrates the work of genetic algorithm.
           </div>
-        </div>
+        </div> */}
 
         <div class="pppart2">
         <div className="projectDesc"  > 

@@ -33,12 +33,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      'genDesc genDesc'
       'Desc1 video'
       'Desc1 video'
       ;
     gap: 1vw;
-    padding: 1vh 0;
+    /* padding: 1vh 0; */
+    font-family: minion, sans-serif;
   }
   
   .home .project4 .grid-container4 > div {
@@ -50,12 +50,12 @@
   }
 
 .video iframe {
-    margin-left:  25% ;
+    margin-top:  -10% ;
 }
 
 .projectDesc{
   align-content: center;
-  margin-top:5vh;
+  /* margin-top:5vh; */
 }
 
 

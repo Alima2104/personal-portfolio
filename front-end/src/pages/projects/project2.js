@@ -18,7 +18,7 @@ function Project2Description() {
         <Header />
     </div>
     <div className = "bodyPart">
-      <div id="bannerimage"></div>
+      {/* <div id="bannerimage"></div> */}
       <div className="title"> 
       <p>Super Emergency Kit</p>
       </div>
@@ -75,7 +75,7 @@ We talked to 6 students at this stage and realized that all of them feel helples
         </div>
 
         <div class="iiitem4_5">
-          <div id="thisImage2"></div>
+          <div id="culturalProbe"></div>
         </div>
 
         <div class="iiitem5">
@@ -93,11 +93,11 @@ We talked to 6 students at this stage and realized that all of them feel helples
         <div className="sectionName"> 
            Brainstorming
         </div>
-        <div className="description"> After gathering all the informtion, we sat together and started brainstorming  </div>
+        <div className="description5"> After gathering all the informtion, we sat together and started brainstorming  </div>
         </div>
 
         <div className="iiitem8">
-        <div className="description"> We came up with the few HMW questions </div>
+        <div className="description6"> We came up with the few HMW questions </div>
         </div>
 
         <div class="iiitem9">
@@ -126,7 +126,7 @@ We talked to 6 students at this stage and realized that all of them feel helples
 
         <div className="iiitem13">
         <div className="description11"> 
-          Ad user journey map:
+          And user journey map:
         </div>
         </div>
 
@@ -174,11 +174,57 @@ We left the ideation phase this time with 3 prototype ideas: VR program that imi
         </div>
         </div>
 
+        <div class="iiitem17">
+        <div className="sectionName"> 
+           Usability Testing
+        </div>
+        <div className="miniSectionName"> 
+           User Testing Sample Questions
+        </div>
+        <div className="description10"> 
+        The first thing we focused on was our research strategy. In order to identify the flaws in the current UX and UI, we conducted a usability test by interviewing people that fit our user archetype. These were users over the age of 50 who had lost a loved one within the past 5-10 years. Before we began our interviews we first needed to do two things.
+First we conduct a competitor analysis. Aside from using and understanding Memento, this also gave us an insight in the market space and provided additional context for the problem we are working on. Secondly we create an interview guide in preparation for Usability Testing. This enabled us to conduct our interviews in a consistent and controlled manner.
+        </div>
+        <div id="UserTestingQ"></div>
+        </div>
+        
+        <div class="iiitem18">
+        <div className="miniSectionName"> 
+           Results
+        </div>
+        <div className="description10"> 
+        The first thing we focused on was our research strategy. In order to identify the flaws in the current UX and UI, we conducted a usability test by interviewing people that fit our user archetype. These were users over the age of 50 who had lost a loved one within the past 5-10 years. Before we began our interviews we first needed to do two things.
+First we conduct a competitor analysis. Aside from using and understanding Memento, this also gave us an insight in the market space and provided additional context for the problem we are working on. Secondly we create an interview guide in preparation for Usability Testing. This enabled us to conduct our interviews in a consistent and controlled manner.
+        </div>
+        <div id="usabilityResults"></div>
+        </div>
+
+
+        <div class="iiitem19">
+        <div className="sectionName"> 
+           Refined Prototype
+        </div>
+        <div className="description10"> 
+        The first thing we focused on was our research strategy. In order to identify the flaws in the current UX and UI, we conducted a usability test by interviewing people that fit our user archetype. These were users over the age of 50 who had lost a loved one within the past 5-10 years. Before we began our interviews we first needed to do two things.
+First we conduct a competitor analysis. Aside from using and understanding Memento, this also gave us an insight in the market space and provided additional context for the problem we are working on. Secondly we create an interview guide in preparation for Usability Testing. This enabled us to conduct our interviews in a consistent and controlled manner.
+        </div>
+        <div id="UserTestingQ"></div>
+        </div>
+      
+        <div class="iiitem20">
+        <div className="sectionName"> 
+          Future Plans
+        </div>
+        <div className="description10"> 
+        The first thing we focused on was our research strategy. In order to identify the flaws in the current UX and UI, we conducted a usability test by interviewing people that fit our user archetype. These were users over the age of 50 who had lost a loved one within the past 5-10 years. Before we began our interviews we first needed to do two things.
+First we conduct a competitor analysis. Aside from using and understanding Memento, this also gave us an insight in the market space and provided additional context for the problem we are working on. Secondly we create an interview guide in preparation for Usability Testing. This enabled us to conduct our interviews in a consistent and controlled manner.
+        </div>
+        </div>
+      
+      
+      
       </div> 
-
         </div> 
-
-    
     </div>
   </div>
   );

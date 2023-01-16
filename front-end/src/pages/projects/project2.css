@@ -42,7 +42,7 @@
   .iiitem4 { 
     grid-area: desc3; 
   }
-  .iiitem4_4 {
+  .iiitem4_5 {
     grid-area: probe;
   }
   .iiitem5 { 
@@ -94,7 +94,20 @@
 .iiitem16 {
   grid-area: prototyping;
 }
-  
+
+.iiitem17 {
+  grid-area: usability;
+}
+.iiitem18 {
+  grid-area: usability2;
+}
+.iiitem19 {
+  grid-area: refined;
+}
+.iiitem20 {
+  grid-area: future;
+}
+   
   .home .project2 .grid-container2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -119,16 +132,23 @@
       'journey journey journey journey'
       'desc9 desc9 desc9 desc9'
       'b4 b1 b2 b3'
-      'prototyping prototyping prototyping prototyping';
+      'prototyping prototyping prototyping prototyping'
+      'usability usability usability usability' 
+      'usability2 usability2 usability2 usability2'
+      'refined refined refined refined'
+      'future future future future';
     gap: 1vw;
     padding: 5vh 0;
+    font-family: minion, sans-serif;
+    text-align: justify;
   }
   
   .home .project2 .grid-container2 > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 0;
-    font-size: 17px;
+    text-align: justify;
+    font-size: 20px;
     font-weight: 300;
   }
 
@@ -168,6 +188,46 @@
 
   }
 
+  #culturalProbe {
+    display: block;
+    background-image: url('img/culturalProbe.png');
+    background-color: white;
+    background-position: center;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #culturalProbe2 {
+    
+    background-image: url('img/culturalProbe.png');
+    background-color: white;
+    background-position: center;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #UserTestingQ {
+    display: block;
+    background-image: url('img/usabilityTestQuestions.png');
+    background-color: white;
+    background-position: center;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #usabilityResults {
+    display: block;
+    background-image: url('img/usabilityTestResults.png');
+    background-color: white;
+    background-position: center;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
   #userpersona1 {
     background-image: url('up1.png');
     background-color: purple;
@@ -183,8 +243,8 @@
   }
 
   #userjourney {
-    background-image: url('up2.png');
-    background-color: purple;
+    /* background-image: url('up2.png'); */
+    background-color: white;
     background-position: center;
     height: 90vh;
   }
@@ -205,9 +265,9 @@
 
 .ShortDescription2 p{
     text-align: center;
-    font-size: 12px;
-    font-family: proxima-nova, sans-serif;
-    font-weight: 400;
+    /* font-size: 12px;
+    font-family: proxima-nova, sans-serif; */
+    font-weight: 300;
   }
 
 .ShortDescription2 {
@@ -218,19 +278,14 @@
     display: inline;
     color: #317773;
     font-weight: 700;
+    font-family: minion, sans-serif;
 
 }
 
 .quote1{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: #317773;
     font-weight: 600;
 }
 
-/* Rounded border */
-/* hr.rounded {
-    width: 80%;
-    border-top: 3x solid #317773;
-    border-radius: 4px;
-  } */

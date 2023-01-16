@@ -22,7 +22,7 @@ function Project6Description() {
       <div className="title"> 
       <p>Interactive Websites</p>
       </div>
-      <hr class="rounded"/>
+      {/* <hr class="rounded"/> */}
         <div className="project6"> 
         <div class="grid-container6 ">
         <div class="part1">
@@ -33,7 +33,7 @@ function Project6Description() {
         <div class="part2">
         <div className="projectDesc" data-aos="fade-right" > 
         “The Goodest Boy” - is a story about a lovely Shiba called Bark who is home alone when his owner goes to work and something happens to him during this time. 
-The story itself is short and funny, and it is told using comics style. [add something about comics from the readings]
+The story itself is short and funny, and it is told using comics style. 
         </div>
         
         </div>  

@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../../components/header";
-import p1 from "./img/p1.jpeg";
-import p2 from "./img/p2.jpeg";
-import p3 from "./img/p3.jpeg";
+import p1 from "./img/p2.jpeg";
+import p2 from "./img/p2.png";
+import p3 from "./img/p3.png";
 import { Link } from "react-router-dom";
 import "./work.css";
 
@@ -22,9 +22,9 @@ function Works() {
             <div className="grid-item"> 
                <Link to="/project1">
                <figure  >
-                  <img src={p2} />
+                  <img src={p1} />
                   <figcaption>
-                    <h> MUSAIK </h> <br/>
+                    <h> Musaik </h> <br/>
                     The app that connects through music
                     </figcaption>
                 </figure>
@@ -44,7 +44,7 @@ function Works() {
             <div className="grid-item"> 
                <Link to="/project3">
                <figure>
-               <img src={p2} />
+               <img src={p3} />
                   <figcaption><h> CodeChat </h> <br/>
                     A social business idea that will make quality CS education more accessible </figcaption>
                 </figure> </Link>  

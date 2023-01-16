@@ -1,6 +1,6 @@
 .bodyPart {
     align-content: center;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .bodyPart .title {
@@ -55,6 +55,7 @@
       ;
     gap: 1vw;
     padding: 5vh 0;
+    font-family: minion, sans-serif;
   }
   
   .home .project1 .grid-container6 > div {
@@ -62,19 +63,15 @@
     text-align: center;
     padding: 20px 0;
     font-size: 17px;
-    font-weight: 300;
+    /* font-weight: 300; */
   }
-
-.video iframe {
-    margin-left:  25% ;
-}
 
 
 .ShortDescription p{
     text-align: center;
     font-size: 12px;
-    font-family: proxima-nova, sans-serif;
-    font-weight: 400;
+    /* font-family: proxima-nova, sans-serif;
+    font-weight: 400; */
   }
 
 .ShortDescription {

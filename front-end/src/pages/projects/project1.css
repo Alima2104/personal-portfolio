@@ -40,64 +40,139 @@
     grid-area: desc3; 
   }
   .iitem5 { 
-    grid-area: desc4; 
+    background-color: purple;
+    grid-area: desc4;
   }
   .iitem6 { 
     grid-area: pic2; 
   }
   .iitem7 { 
     grid-area: desc5; 
+    margin-top: 15vh;
   }
   .iitem8{
-    grid-area: desc6; 
+    grid-area: pic3; 
 }
   .iitem9{
-    grid-area: vid1; 
+    grid-area: desc6; 
+    margin-top: 20vh;
 }
-
 .iitem10{
-    grid-area: desc7;
+    grid-area: pic4;
+   
 }
-
+.iitem11{
+  grid-area: desc7;
+  margin-top: 10vh;
+}
+.iitem12{
+  grid-area: desc8;
+}
+.iitem13{
+  grid-area: desc9;
+}
+.iitem14 {
+  grid-area: desc10;
+}
+.iitem15 {
+  grid-area: desc11;
+}
+.iitem16 {
+  grid-area: desc12;
+}
+.iitem17 {
+  grid-area: desc13;
+}
+.iitem18 {
+  grid-area: desc14;
+}
+.iitem19 {
+  grid-area: desc15;
+}
+.iitem20{
+  grid-area: desc16;
+}
+.iitem21{
+  grid-area: pic5;
+}
+.iitem22{
+  grid-area: desc17;
+}
+.iitem23{
+  grid-area: pic6;
+}
+.iitem24{
+  grid-area: desc18;
+}
+.iitem25{
+  grid-area: desc19;
+}
   
-  .home .project1 .grid-container {
+  .home .project1 .grid-container1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
-      'roles desc1'
-      'roles desc1'
-      'desc2 desc2'
-      'desc2 desc2 '
-      'desc3 desc3'
-      'desc3 desc3'
-      'desc4 pic2'
-      'desc4 pic2'
-      'desc5 desc5'
-      'desc6 vid1'
-      'desc6 vid1'
-      'desc7 desc7';
+      'roles roles desc1 desc1'
+      'roles roles desc1 desc1'
+      'desc2 desc2 pic1 pic1'
+      'desc2 desc2 pic1 pic1'
+      'desc3 desc3 pic1 pic1'
+      'desc3 desc3 pic1 pic1'
+      'desc4 desc4 desc4 desc4'
+      'desc4 desc4 desc4 desc4'
+      'pic2 pic2 desc5 desc5'
+      'pic2 pic2 desc5 desc5'
+      'desc6 desc6 pic3 pic3'
+      'desc6 desc6 pic3 pic3'
+      'pic4 pic4 desc7 desc7'
+      'pic4 pic4 desc7 desc7'
+      'desc8 desc8 desc8 desc8'
+      'desc8 desc8 desc8 desc8'
+      'desc9 desc9 desc9 desc9'
+      'desc10 desc10 desc10 desc10'
+      'desc11 desc11 desc11 desc11'
+      'desc12 desc12 desc12 desc12'
+      'desc13 desc13 desc13 desc13'
+      'desc14 desc14 desc14 desc14'
+      'desc15 desc15 desc15 desc15'
+      'desc16 desc16 pic5 pic5'
+      'desc16 desc16 pic5 pic5'
+      'pic6 pic6 desc17 desc17'
+      'pic6 pic6 desc17 desc17'
+      'desc18 desc18 desc18 desc18'
+      'desc19 desc19 desc19 desc19';
     gap: 1vw;
     padding: 5vh 0;
+    font-family: minion, sans-serif;
+    text-align: justify;
   }
   
-  .home .project1 .grid-container > div {
+  .home .project1 .grid-container1 > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 0;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 300;
+    text-align: justify;
   }
 
 .video iframe {
     margin-left:  25% ;
 }
 
-.sectionName {
+.project1 .sectionName {
     color: #FB8F67;
     font-size: 40px;
     text-align: center;
     font-family: proxima-nova-extra-condensed, sans-serif;
     /* letter-spacing: 0.2rem; */
+}
+
+.miniSectionName {
+  color: #FB8F67;
+    font-size: 40px;
+    text-align: left;
+    font-family: proxima-nova-extra-condensed, sans-serif;
 }
 
 #bannerimage {
@@ -106,6 +181,49 @@
     height: 25vh;
     background-color: purple;
     background-position: center;
+  }
+
+  #firstScreenshot {
+    background-image: url('img/new_first.png');
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    size: auto;
+    height: 85vh;
+   
+  }
+
+  #homeScreenshot {
+    background-image: url('img/new_first.png');
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    height: 70vh;
+  }
+
+  #stationScreenshot {
+    background-image: url('img/new_first.png');
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    height: 60vh;
+  }
+
+  #discoverScreenshot {
+    background-image: url('img/new_first.png');
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    height: 60vh;
+  }
+
+
+  #competitorAnalysis {
+    background-image: url('journeymap.png');
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    height: 60vh;
   }
 
   #thisImage {
@@ -126,9 +244,9 @@
 
 .ShortDescription1 p{
     text-align: center;
-    font-size: 12px;
-    font-family: proxima-nova, sans-serif;
-    font-weight: 400;
+    /* font-size: 12px; */
+    font-family: minion, sans-serif;
+    font-weight: 300;
   }
 
 .ShortDescription1 {
@@ -140,6 +258,10 @@
     color: #FB8F67;
     font-weight: 700;
 
+}
+
+.project1 ul {
+  color: black;
 }
 
 
