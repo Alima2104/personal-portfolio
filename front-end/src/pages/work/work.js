@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/header";
-import p1 from "./img/p2.jpeg";
-import p2 from "./img/p2.png";
+import p1 from "./img/cover.jpg";
+import p2 from "./img/toteBag.png";
 import p3 from "./img/p3.png";
 import { Link } from "react-router-dom";
 import "./work.css";

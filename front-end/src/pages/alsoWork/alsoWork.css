@@ -15,7 +15,7 @@
   
   .body .grid-container21 {
       display: inline-grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
       background-color: white;
       
       padding: 5vh 0;
@@ -24,7 +24,7 @@
   
     }
     
-    .grid-item {
+    .grid-container21 .grid-item {
       background-color: rgba(255, 255, 255, 0.8);
       border: 0px solid blue;
       /* padding: 10vh 10vw 10vh 10vw; */

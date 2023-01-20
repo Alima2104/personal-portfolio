@@ -45,8 +45,24 @@
 .tem6{
     grid-area: sixth;
 }
-
-
+.tem7{
+    grid-area: seventh;
+}
+.tem8{
+    grid-area: eighth;
+}
+.tem9{
+    grid-area: video;
+}
+.tem10{
+    grid-area: tenth;
+}
+.tem11{
+    grid-area: eleventh;
+}
+.tem12{
+    grid-area: twelveth;
+}
 .home .project3 .grid-container3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -56,7 +72,13 @@
       'third third'
       'forth forth'
       'fifth fifth'
-      'sixth sixth';
+      'sixth sixth'
+      'seventh seventh'
+      'eighth eighth'
+      'video video'
+      'tenth tenth'
+      'eleventh eleventh'
+      'twelveth twelveth';
     gap: 1vw;
     padding: 5vh 0;
     font-family: minion, sans-serif;
@@ -122,3 +144,57 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
+  #seventhSlide {
+    display: block;
+    background-image: url('img/7.png');
+    background-color: white;
+    background-position: center;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #eightsSlide {
+    display: block;
+    background-image: url('img/8.png');
+    background-color: white;
+    background-position: center;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #tenthSlide {
+    display: block;
+    background-image: url('img/10.png');
+    background-color: white;
+    background-position: center;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #eleventhSlide {
+    display: block;
+    background-image: url('img/11.png');
+    background-color: white;
+    background-position: center;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #twelvethSlide {
+    display: block;
+    background-image: url('img/12.png');
+    background-color: white;
+    background-position: center;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+.vp-center{
+align-items: unset;
+margin: 0;
+}
+ #ninethSlide {
+    margin-left: 15%;
+    height: 50vh;
+ }

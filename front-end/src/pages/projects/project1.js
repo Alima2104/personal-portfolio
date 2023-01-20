@@ -27,7 +27,7 @@ function Project1Description() {
 
           <div class="iitem1">
             <div className="GenDescription"> 
-              The Musaik team has a vision of making connection through music a much easier process. We want our users to view our app as a hub for finding and connecting with others that share the same musical taste.
+            <p> The Musaik team has a vision of making connection through music a much easier process. We want our users to view our app as a hub for finding and connecting with others that share the same musical taste.</p>
             </div>
           </div>
 
@@ -64,6 +64,24 @@ function Project1Description() {
         1. Empathise, 2. Define, 3. Ideate, 4. Prototype, 5. Test.
         </div>
         </div>
+
+        <div class="iitem5_1">
+        <div className="description4"> 
+        Design we had previously is below. We went with the dark mode being the only option as it aligned with the mood of the app.
+        </div>
+        </div>
+
+        <div class="iitem5_2">
+         <div id="prevDarkVersion"></div>
+        </div>
+
+        <div class="iitem5_3">
+        <div className="description4"> 
+        You can see the design I came up with here, and the process behind it too!
+
+        </div>
+        </div>
+
         
         <div class="iitem6">
          <div id="homeScreenshot"></div>
@@ -73,10 +91,11 @@ function Project1Description() {
         <div className="sectionName"> 
            Home
         </div>
-        <div className="description4"> We introduced the homepage in order to provide a central place for a user to go from when starting their Memento journey.
-Users have the option to Record a Session or access their Saved Recordings.
-There is also a short video that explains how the whole process works, again to reinforce the information we are trying to convey but this time in form of video.
-We also Introduced our Help Bot. This button pops up and explains the elements of the apps. This is only shown once and only comes up when using the app for the first time. </div>
+        <div className="description4"> We introduced the homepage in order to provide a central place for a user to go from when starting their Musaik journey.
+Users have the option to Discover music or Start a Listening Party themselves.
+I did not include any of explanation of how app works as it is intuitive - after giving it to testers, they knew what to do and where to click immediately. 
+I wanted to give users feeling of competency. However, for users who are lost there is the question mark icon on the right upper angle. When clicking it, it explains what to do. 
+The home page is designed to discover new music and see what are your friends are listenin  </div>
         </div>
 
         <div class="iitem8">
@@ -88,7 +107,8 @@ We also Introduced our Help Bot. This button pops up and explains the elements o
            Station
         </div>
         <div className="description4">
-          We decided to introduce fun and friendly illustrations that would support the questions. We chose illustrations over pictures because they’re timeless and reflect emotional sentimentality of memories that are often not as deliberate and certain as a photograph. </div>
+        After getting feedback for the initial app, I realized  that people were confused about navigation. That’s why I decided to move starting the listening party to the user account page. I also decided to add a positive reinforcement of hosting listening parties by adding the number of listeners on the account. 
+ </div>
         </div>
 
         <div class="iitem10">
@@ -100,9 +120,7 @@ We also Introduced our Help Bot. This button pops up and explains the elements o
            Discover
         </div>
         <div className="description4">
-        The recording process wasn't clear – both before, during and after the recording. Users were not aware that the app was recording all the time and assumed that they had to click a button to start a recording.
-We decided on the iconography of the microphone  to give the users the ability to start/pause/save their recordings. A power that wasn’t given to them in the previous prototype.
-By doing this we have removed the uncertainty of knowing when the recording would begin and end.
+        Users liked the Discovery page as it was intuitively understandable that the bigger bubbles show playlists that are more aligned with the taste. Adding this visual got a very positive feedback. Therefore, I decided to make it a central button.
  </div>
         </div>
 
@@ -115,12 +133,12 @@ By doing this we have removed the uncertainty of knowing when the recording woul
            Research Strategy
         </div>
         <div className="description10"> 
-        The first thing we focused on was our research strategy. In order to identify the flaws in the current UX and UI, we conducted a usability test by interviewing people that fit our user archetype. These were users over the age of 50 who had lost a loved one within the past 5-10 years. Before we began our interviews we first needed to do two things.
-First we conduct a competitor analysis. Aside from using and understanding Memento, this also gave us an insight in the market space and provided additional context for the problem we are working on. Secondly we create an interview guide in preparation for Usability Testing. This enabled us to conduct our interviews in a consistent and controlled manner.
+        The first thing we focused on was our research strategy. In order to identify the flaws in the current UX and UI, we conducted a usability test by interviewing people that fit our user archetype. These were users who are the university student age who listen to music often, loves doing it, and have long-distance friendships. Before we began our interviews we first needed to do two things.
+First we conduct a competitor analysis. Aside from using and understanding Musaik, this also gave us an insight in the market space and provided additional context for the problem we are working on. Secondly we create an interview guide in preparation for Usability Testing. This enabled us to conduct our interviews in a consistent and controlled manner.
         </div>
         </div>
 
-        <div className="iitem13"> 
+        {/* <div className="iitem13"> 
           <div className="miniSectionName">
             Competitor Analysis 
             </div>
@@ -135,7 +153,7 @@ We focused our research on User Interface elements and User Experience Flows –
           As part of our Competitor Analysis, we conducted an analysis on three apps with similar product offerings to Memento. These were: Thread.Care, Saga and A Lasting Tale.
 We focused our research on User Interface elements and User Experience Flows – including the Sign Up process, Recording stage, User Ratings and the Features.
         </div>
-        </div>
+        </div> */}
 
         <div className="iitem14"> 
           <div className="miniSectionName">
@@ -145,7 +163,7 @@ We focused our research on User Interface elements and User Experience Flows –
             We created an interview guide that allowed us to follow a structured interviewing process, ensuring that each team member records their interview in a consistent manner. With this guide we conducted 5 user interviews, recording video with the online tool Lookback.io and then scribing our findings on a Miro board.
         </div>
 
-        <div id="competitorAnalysis"></div>
+        {/* <div id="competitorAnalysis"></div> */}
         </div>
 
         <div className="iitem15">
@@ -194,7 +212,7 @@ We focused our research on User Interface elements and User Experience Flows –
             After numerous testing and feedback we altered the user flow of the app, so it would be a better experience for all users. Due to the short time frame for the project, we decided to focus our efforts on improving the recording process.
             </div>
 
-        <div id="competitorAnalysis"></div>
+        <div id="UserFlows"></div>
         </div>
 
         <div className="iitem19"> 
@@ -206,7 +224,7 @@ We focused our research on User Interface elements and User Experience Flows –
 We started thinking about the recording process, and spent time sparking ideas for possible innovative solutions as a collective team
             </div>
 
-        <div id="competitorAnalysis"></div>
+        <div id="newHMWs"></div>
         </div>
 
         <div className="iitem20"> 
@@ -220,7 +238,7 @@ We started thinking about the recording process, and spent time sparking ideas f
         </div>
          
         <div class="iitem21">
-         <div id="homeScreenshot"></div>
+         <div id="sketch"></div>
         </div>
 
         <div className="iitem22"> 
@@ -234,7 +252,7 @@ We started thinking about the recording process, and spent time sparking ideas f
         </div>
 
         <div class="iitem23">
-         <div id="homeScreenshot"></div>
+         <div id="wireframe"></div>
         </div>
 
 
@@ -243,10 +261,10 @@ We started thinking about the recording process, and spent time sparking ideas f
             Design System
             </div>
             <div className="description11"> 
-            We came up with a design system to add consistency, structure and communication across all team members. We chose simple readable humanist typeface that would improve reading legibility at both small and large sizes. The colour palette is mature yet modern and has good contrast.
+            We came up with a design system to add consistency, structure and communication across all team members. We chose simple readable humanist typeface that would improve reading legibility at both small and large sizes. The color palette is mature yet modern and has good contrast.
 We also implemented icons and friendly illustrations to bring some fun and enjoyment to the app.            </div>
 
-        <div id="competitorAnalysis"></div>
+        <div id="palette"></div>
         </div>
 
 

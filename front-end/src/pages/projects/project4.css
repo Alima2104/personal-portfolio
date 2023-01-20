@@ -31,12 +31,12 @@
   
   .home .project4 .grid-container4 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1f 1fr;
     grid-template-areas:
-      'Desc1 video'
-      'Desc1 video'
+      'Desc1 Desc1 Desc1 video video video video'
+      'Desc1 Desc1 Desc1 video video video video'
       ;
-    gap: 1vw;
+    gap: 0;
     /* padding: 1vh 0; */
     font-family: minion, sans-serif;
   }
@@ -45,10 +45,13 @@
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 0;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 300;
   }
 
+.vp-center{
+  align-items: unset;
+}
 .video iframe {
     margin-top:  -10% ;
 }
@@ -56,6 +59,13 @@
 .projectDesc{
   align-content: center;
   /* margin-top:5vh; */
+}
+
+.projectDesc .bold {
+  display: inline;
+  font-weight: 600;
+  color: #7A9E9F;
+
 }
 
 

@@ -24,6 +24,11 @@
 }
 .iiitem1 { 
     grid-area: desc1; 
+    
+  }
+  .iiitem1 p {
+    background-color: #317773;
+    color: white;
   }
   .iiitem2 { 
     grid-area: pic1; 
@@ -61,6 +66,10 @@
     grid-area: HMW; 
 }
 
+.iiitem9_1{
+  grid-area: desc6_5;
+}
+
 .iiitem10{
     grid-area: desc7;
 }
@@ -76,8 +85,23 @@
 .iiitem14 {
   grid-area: journey;
 }
+.iiitem14_5 {
+  grid-area: desc8_5;
+}
 .iiitem15 {
   grid-area: desc9;
+}
+.iiitem15_11{
+  grid-area: safe1;
+}
+.iiitem15_12{
+  grid-area: safe2;
+}
+.iiitem15_13{
+  grid-area: safe3;
+}
+.iiitem15_14{
+  grid-area: safe4;
 }
 .iiitem15_1 {
   grid-area:b1;
@@ -91,18 +115,44 @@
 .iiitem15_4 {
   grid-area:b4;
 }
+.iiitem15_5 {
+  grid-area:refinedhmw;
+}
 .iiitem16 {
   grid-area: prototyping;
 }
-
+.iiitem16_1 {
+  grid-area: desc10;
+}
+.iiitem16_2 {
+  grid-area: pics;
+}
+.iiitem16_3 {
+  grid-area: pics2;
+}
+.iiitem17_0 {
+  grid-area: usabilityName;
+}
 .iiitem17 {
   grid-area: usability;
+}
+.iiitem17_5 {
+  grid-area: usabilitypics;
 }
 .iiitem18 {
   grid-area: usability2;
 }
+.iiitem18_5 {
+  grid-area: usability2pics;
+}
 .iiitem19 {
   grid-area: refined;
+}
+.iiitem19_1 {
+  grid-area: bagg;
+}
+.iiitem19_2 {
+  grid-area: itemss;
 }
 .iiitem20 {
   grid-area: future;
@@ -124,18 +174,26 @@
       'desc5 desc5 desc5 desc5'
       'desc6 HMW HMW HMW'
       'desc6 HMW HMW HMW'
+      'desc6_5 desc6_5 desc6_5 desc6_5'
       'desc7 desc7 desc7 desc7'
       'persona1 persona1 persona2 persona2'
       'persona1 persona1 persona2 persona2'
       'desc8 desc8 desc8 desc8'
       'journey journey journey journey'
       'journey journey journey journey'
+      'desc8_5 desc8_5 desc8_5 desc8_5'
       'desc9 desc9 desc9 desc9'
+      'safe1 safe2 safe3 safe4'
       'b4 b1 b2 b3'
+      'refinedhmw refinedhmw refinedhmw refinedhmw'
       'prototyping prototyping prototyping prototyping'
-      'usability usability usability usability' 
-      'usability2 usability2 usability2 usability2'
+      'desc10 desc10 pics pics2'
+      'desc10 desc10 pics pics2'
+      'usabilityName usabilityName usabilityName usabilityName'
+      'usabilitypics usabilitypics usability usability' 
+      'usability2 usability2 usability2pics usability2pics'
       'refined refined refined refined'
+      'bagg bagg itemss itemss'
       'future future future future';
     gap: 1vw;
     padding: 5vh 0;
@@ -230,39 +288,169 @@
 
   #userpersona1 {
     background-image: url('up1.png');
-    background-color: purple;
+    background-color: white;
     background-position: center;
     width: 100%;
     height: 35vh;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
   #userpersona2 {
     background-image: url('up2.png');
-    background-color: purple;
+    background-color: white;
     background-position: center;
     height: 35vh;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   #userjourney {
-    /* background-image: url('up2.png'); */
+    background-image: url('journeymap.png');
     background-color: white;
     background-position: center;
     height: 90vh;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
+
+  #safeNYU1 {
+    background-image: url('img/safe1.PNG');
+    background-color: white;
+    background-position: center;
+    width: 100%;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #safeNYU2 {
+    background-image: url('img/safe2.PNG');
+    background-color: white;
+    background-position: center;
+    width: 100%;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #safeNYU3 {
+    background-image: url('img/safe3.PNG');
+    background-color: white;
+    background-position: center;
+    width: 100%;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+
+  #safeNYU4 {
+    background-image: url('img/safe4.PNG');
+    background-color: white;
+    background-position: center;
+    width: 100%;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+
+  #qrcode {
+
+    background-image: url('img/QR\ code.jpeg');
+    background-color: white;
+    background-position: center;
+    width: 100%;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #bag {
+
+    background-image: url('img/toteBag.png');
+    background-color: white;
+    background-position: center;
+    width: 100%;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #items {
+
+    background-image: url('img/items.jpg');
+    background-color: white;
+    background-position: center;
+    width: 100%;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #physicalprototype {
+
+    background-image: url('img/prototype.jpg');
+    background-color: white;
+    background-position: center;
+    width: 100%;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+
 
   #howmightwe {
     background-image: url('up2.png');
-    background-color: purple;
+    background-color: white;
     background-position: center;
     height: 43vh;
   }
 
-  #brainstorming {
-    /* background-image: url('up2.png'); */
+  #noInternet {
+    background-image: url('img/no_internet.jpeg');
+    background-color: white;
+    background-position: center;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #brainstorming1 {
+    background-image: url('img/brainstorming1.png');
     background-color: white;
     background-position: center;
     height: 20vh;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
+  #brainstorming2 {
+    background-image: url('img/brainstorming2.png');
+    background-color: white;
+    background-position: center;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #brainstorming3 {
+    background-image: url('img/brainstorming3.png');
+    background-color: white;
+    background-position: center;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #poster {
+    background-image: url('img/posterEmergency.png');
+    background-color: white;
+    background-position: center;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 .ShortDescription2 p{
     text-align: center;
     /* font-size: 12px;
@@ -289,3 +477,13 @@
     font-weight: 600;
 }
 
+.description10 ul{
+  color: black;
+}
+
+#refinedHMW .bold {
+  font-size: 25px;
+  color: #317773;
+  text-align: center;
+  font-weight: 600;
+}

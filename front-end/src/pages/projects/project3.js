@@ -51,7 +51,31 @@ function Project3Description() {
         <div class="tem6">
          <div id="sixthSlide"></div>
         </div>
-      
+
+        <div class="tem7">
+         <div id="seventhSlide"></div>
+        </div>
+
+
+        <div class="tem8">
+         <div id="eighthSlide"></div>
+        </div>
+        <div class="tem9">
+         <div id="ninethSlide">  <Vimeo
+      video="https://vimeo.com/781274231"
+     
+      /> </div>
+        </div>
+
+        <div class="tem10">
+         <div id="tenthSlide"></div>
+        </div>
+        <div class="tem11">
+         <div id="eleventhSlide"></div>
+        </div>
+        <div class="tem12">
+         <div id="twelvethSlide"></div>
+        </div>
       </div> 
 
         </div> 

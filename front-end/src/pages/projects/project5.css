@@ -16,14 +16,14 @@
   
 }
 
-.pppart1 { 
+/* .pppart1 { 
     grid-area: genDesc; 
+  } */
+.p2 { 
+    grid-area: Desc11; 
+   
   }
-.pppart2 { 
-    grid-area: Desc1; 
-    color: black;
-  }
-  .pppart3 { 
+  .p3 { 
     grid-area: editor; 
   }
   
@@ -31,9 +31,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      'Desc1  Desc1   '
-      'editor editor '
-      'editor editor '
+      'Desc11  Desc11'
+      'Desc11 Desc11'
+      'editor editor'
+      'editor editor'
       ;
     gap: 1vw;
     /* padding: 1vh 0; */
@@ -43,15 +44,15 @@
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 0 0;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 300;
   }
 
-.projectDesc{
+.projectDesc5{
   align-content: center;
   text-align: justify;
   font-family: minion, sans-serif;
-  /* margin-top:5vh; */
+  margin-bottom:5vh;
 }
 
 iframe {

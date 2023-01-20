@@ -58,18 +58,18 @@
     font-family: minion, sans-serif;
   }
   
-  .home .project1 .grid-container6 > div {
+  .home .project6 .grid-container6 > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 0;
-    font-size: 17px;
+    font-size: 20px;
     /* font-weight: 300; */
   }
 
 
 .ShortDescription p{
     text-align: center;
-    font-size: 12px;
+    font-size: 20px;
     /* font-family: proxima-nova, sans-serif;
     font-weight: 400; */
   }

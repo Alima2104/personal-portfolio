@@ -6,6 +6,7 @@ import Project3Description from './pages/projects/project3';
 import Project4Description from './pages/projects/project4';
 import Project5Description from './pages/projects/project5';
 import Project6Description from './pages/projects/project6';
+import Project7Description from './pages/projects/project7';
 import LandingPage from './pages/landingPage/landingPage';
 import Works from './pages/work/work';
 import Contact from './pages/ContactMe/contact';
@@ -28,6 +29,7 @@ const App = props => {
         <Route path="/project4" element={<Project4Description/>} />
         <Route path="/project5" element={<Project5Description/>} />
         <Route path="/project6" element={<Project6Description/>} />
+        <Route path="/project7" element={<Project7Description/>} />
       </Routes>
 </BrowserRouter>
 </>

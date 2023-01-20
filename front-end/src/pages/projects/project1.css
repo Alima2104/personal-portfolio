@@ -3,7 +3,7 @@
 }
 
 .bodyPart .title1 {
-    color: #FB8F67;
+    color: #317773;
     font-size: 50px;
     text-align: center;
     font-family: proxima-nova-extra-condensed, sans-serif;
@@ -30,6 +30,10 @@
 .iitem1 { 
     grid-area: desc1; 
   }
+  .iitem1 p{
+    background-color: #317773;
+    color: white;
+  }
   .iitem2 { 
     grid-area: pic1; 
   }
@@ -40,8 +44,17 @@
     grid-area: desc3; 
   }
   .iitem5 { 
-    background-color: purple;
     grid-area: desc4;
+  }
+  .iitem5_1 { 
+    grid-area: desc4_1;
+  }
+  .iitem5_2 { 
+    grid-area: prevDark;
+  }
+  .iitem5_3 { 
+    grid-area: announcement;
+    text-align: center;
   }
   .iitem6 { 
     grid-area: pic2; 
@@ -120,6 +133,9 @@
       'desc3 desc3 pic1 pic1'
       'desc4 desc4 desc4 desc4'
       'desc4 desc4 desc4 desc4'
+      'desc4_1 desc4_1 desc4_1 desc4_1'
+      'prevDark prevDark prevDark prevDark'
+      'announcement announcement announcement announcement'
       'pic2 pic2 desc5 desc5'
       'pic2 pic2 desc5 desc5'
       'desc6 desc6 pic3 pic3'
@@ -137,8 +153,8 @@
       'desc15 desc15 desc15 desc15'
       'desc16 desc16 pic5 pic5'
       'desc16 desc16 pic5 pic5'
-      'pic6 pic6 desc17 desc17'
-      'pic6 pic6 desc17 desc17'
+      'desc17 desc17 pic6 pic6'
+      'desc17 desc17 pic6 pic6 '
       'desc18 desc18 desc18 desc18'
       'desc19 desc19 desc19 desc19';
     gap: 1vw;
@@ -161,7 +177,7 @@
 }
 
 .project1 .sectionName {
-    color: #FB8F67;
+    color: #317773;
     font-size: 40px;
     text-align: center;
     font-family: proxima-nova-extra-condensed, sans-serif;
@@ -169,7 +185,7 @@
 }
 
 .miniSectionName {
-  color: #FB8F67;
+  color: #317773;
     font-size: 40px;
     text-align: left;
     font-family: proxima-nova-extra-condensed, sans-serif;
@@ -184,37 +200,67 @@
   }
 
   #firstScreenshot {
-    background-image: url('img/new_first.png');
+    background-image: url('img/homeScreen.png');
     background-repeat: no-repeat;
     background-color: white;
     background-position: center;
     size: auto;
     height: 85vh;
-   
+    background-repeat: no-repeat;
+    background-size: contain;
+
   }
 
   #homeScreenshot {
-    background-image: url('img/new_first.png');
+    background-image: url('img/homeScreen.png');
     background-repeat: no-repeat;
     background-color: white;
     background-position: center;
     height: 70vh;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   #stationScreenshot {
-    background-image: url('img/new_first.png');
+    background-image: url('img/profileScreen.png');
     background-repeat: no-repeat;
     background-color: white;
     background-position: center;
     height: 60vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+
+  #prevDarkVersion {
+    background-image: url('img/darkversion.png');
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   #discoverScreenshot {
-    background-image: url('img/new_first.png');
+    background-image: url('img/discoverScreen.png');
     background-repeat: no-repeat;
     background-color: white;
     background-position: center;
     height: 60vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+
+  #palette {
+    background-image: url('img/palette.png');
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
 
@@ -226,6 +272,45 @@
     height: 60vh;
   }
 
+  #newHMWs {
+    background-image: url('img/newHMWs.jpg');
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #sketch{
+    background-image: url('img/sketch.jpg');
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #wireframe{
+    background-image: url('img/wireframe.png');
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #UserFlows {
+    background-image: url('img/userFlows.jpg');
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
   #thisImage {
     background-image: url('pic1.jpeg');
     background-color: purple;
@@ -255,7 +340,7 @@
 
 .ShortDescription1 .bold {
     display: inline;
-    color: #FB8F67;
+    color: #317773;
     font-weight: 700;
 
 }

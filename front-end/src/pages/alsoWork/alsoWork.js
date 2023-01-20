@@ -3,7 +3,7 @@ import Header from "../../components/header";
 import p1 from "./img/firstmore.png";
 import p2 from "./img/secondmore.png";
 import p3 from "./img/thirdmore.jpg";
-import p4 from "./img/p4.jpeg";
+import p4 from "./img/proj7.jpg";
 import p5 from "./img/p1.jpeg";
 import p6 from "./img/p2.jpeg";
 import { Link } from "react-router-dom";
@@ -53,6 +53,15 @@ function AlsoWorks() {
                 </figure> </Link>  
             </div>
             
+            <div className="grid-item"> 
+               <Link to="/project7">
+               <figure>
+               <img src={p4} />
+                  <figcaption><h> No More Stress </h> <br/>
+                    Physical Interactive installation to reduce stress levels</figcaption>
+                </figure> </Link>  
+            </div>
+
         </div>
         </div>
 
