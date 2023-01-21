@@ -20,7 +20,7 @@ function Project6Description() {
   <div className = "bodyPart">
       {/* <div id="bannerimage"></div> */}
       <div className="title"> 
-      <p>Interactive Websites</p>
+      Interactive Websites
       </div>
       {/* <hr class="rounded"/> */}
         <div className="project6"> 
@@ -32,32 +32,35 @@ function Project6Description() {
         </div>
         <div class="part2">
         <div className="projectDesc" data-aos="fade-right" > 
-        “The Goodest Boy” - is a story about a lovely Shiba called Bark who is home alone when his owner goes to work and something happens to him during this time. 
+        <div className="bold">“The Goodest Boy”</div> - is a story about a lovely Shiba called Bark who is home alone when his owner goes to work and something happens to him during this time. 
 The story itself is short and funny, and it is told using comics style. 
         </div>
         
         </div>  
         <div class="part3" data-aos="fade-left" >
-          <div id="image1">
-          </div>
+        <a href="https://fatimaalmaazmi.github.io/comicWebsite/"> <div id="image1">
+          </div></a> 
+          
         </div>
         <div class="part4" data-aos="fade-left">
         <div className="projectDesc"> 
-        “Turbulence” - is a simple looking website where the only thing u see on the screen most of the time is this airplane which takes off with the crew and passengers on board. However, please were headphones and listen to the audio carefully - visuals here are just the support for the main story. And I hope you will appreciate the hilarious contrast between the drawing style and the content of the audio. No spoilers!
+        <div className="bold">“Turbulence”</div> - is a simple looking website where the only thing u see on the screen most of the time is this airplane which takes off with the crew and passengers on board. However, please were headphones and listen to the audio carefully - visuals here are just the support for the main story. And I hope you will appreciate the hilarious contrast between the drawing style and the content of the audio. No spoilers!
         </div>
         </div>
         <div class="part5"  data-aos="fade-right" >
-         <div id="image2"></div>
+        <a href="https://dktpt44.github.io/ComLab-AudioProject/"> <div id="image2">
+          </div></a> 
         </div>
 
         <div className="part6"  data-aos="fade-right">
         <div className="projectDesc"> 
-        “Treasure Hunt for Campus Dirhams” - is a variation of the “choose your adventure” type of games presented on the website. You will meet us, or better say, riddle givers, in different spots on the NYUAD campus while trying to find campus dirhams so you can afford buying products in the convenience store. Don’t worry, riddles are easy, and you have as many attempts as you want - I hope you will enjoy!
+        <div className="bold">“Treasure Hunt for Campus Dirhams”</div> - is a variation of the “choose your adventure” type of games presented on the website. You will meet us, or better say, riddle givers, in different spots on the NYUAD campus while trying to find campus dirhams so you can afford buying products in the convenience store. Don’t worry, riddles are easy, and you have as many attempts as you want - I hope you will enjoy!
         </div>
         </div>
 
         <div class="part7" data-aos="fade-left">
-         <div id="image3"></div>
+         <a href="https://ava-creates.github.io/treasure_hunt/"> <div id="image3">
+          </div></a> 
         </div>
 
       </div> 

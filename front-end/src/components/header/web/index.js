@@ -9,10 +9,10 @@ function Web() {
       <Link to="/about">About </Link>    
     </div>
     <div className="web-option">
-      <Link to="/Work">Work </Link>   
+      <Link to="/Work">UX/UI </Link>   
     </div>
     <div className="web-option">
-      <Link to="/alsoWork">Also Work </Link>   
+      <Link to="/alsoWork">Projects </Link>   
     </div>
     <div className="web-option">
      <Link to="/Contact">Contact</Link>   

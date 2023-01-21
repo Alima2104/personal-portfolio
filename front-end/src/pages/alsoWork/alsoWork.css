@@ -1,6 +1,6 @@
-.WorkTab .title {
+.WorkTab .title21 {
     color: #317773;
-    padding: 10vh 0 0 0;
+    padding: 5vh 0 0 0;
     font-size: 35px;
     text-align: center;
     
@@ -12,22 +12,60 @@
     font-weight: 300;
   
   }
+  .grid-item1 {
+    grid-area: first;
+  }
+  .grid-item2 {
+    grid-area: second;
+  }
+  .grid-item3 {
+    grid-area: third;
+  }
+  .grid-item4 {
+    grid-area: fourth;
+  }
+
+
   
   .body .grid-container21 {
       display: inline-grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       background-color: white;
-      
+      grid-template-areas:
+      'first second'
+      'third fourth';
       padding: 5vh 0;
       column-gap: 10px;
       row-gap: 10px;
   
     }
     
-    .grid-container21 .grid-item {
+    .grid-container21 .grid-item1 {
       background-color: rgba(255, 255, 255, 0.8);
       border: 0px solid blue;
-      /* padding: 10vh 10vw 10vh 10vw; */
+      padding: 2vh 2vw 2vh 2vw;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .grid-container21 .grid-item2 {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 0px solid blue;
+      padding: 2vh 2vw 2vh 2vw;
+      font-size: 30px;
+      text-align: center;
+    }
+    .grid-container21 .grid-item3 {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 0px solid blue;
+      padding: 0 2vw 2vh 2vw;
+      font-size: 30px;
+      text-align: center;
+    }
+    .grid-container21 .grid-item4 {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 0px solid blue;
+      padding: 0 2vw 2vh 2vw;
       font-size: 30px;
       text-align: center;
     }
@@ -37,13 +75,30 @@
       width: 100%;
     }
 
-    figcaption {
+    .grid-container21 figcaption {
+        text-align: center;
         color: black;
         font-size: 10px;
         font-weight: 400;
     }
 
-    figcaption h{
+    .grid-container21 figcaption h{
         font-weight: 600;
         font-size: 20px;
     }
+
+    .grid-item1 img:hover{
+      box-shadow: 0 3px 10px rgb(0 0 0 / 1);
+  }
+
+  .grid-item2 img:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 1);
+}
+
+.grid-item3 img:hover{
+  box-shadow: 0 3px 10px rgb(0 0 0 / 1);
+}
+
+.grid-item4 img:hover{
+  box-shadow: 0 3px 10px rgb(0 0 0 / 1);
+}

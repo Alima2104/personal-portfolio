@@ -23,7 +23,7 @@ function LandingPage() {
         <div class="item2">
           <div className="ShortDescription">
             Hey, my name is Alima. <br/>
-            A Ready-to-be UX/UI Designer with Multidisciplinary Design and Coding Experiences. <br/>
+            An aspiring UX/UI Designer with Multidisciplinary Design and Coding Experiences. <br/>
             Please, feel free explore this page. 
         </div>
         </div>

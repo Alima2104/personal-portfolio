@@ -17,12 +17,12 @@ function AlsoWorks() {
       </div>
       <div className = "body">
       <div className="WorkTab"> 
-        <div className="title"> More Projects </div>
+        <div className="title21"> Projects </div>
         <div className="description"> Click on them to learn more! </div>
         </div> 
         <div className="containerForWorks"> 
         <div className="grid-container21">
-            <div className="grid-item"> 
+            <div className="grid-item1"> 
                <Link to="/project4">
                <figure>
                   <img src={p1} />
@@ -33,7 +33,7 @@ function AlsoWorks() {
                 </figure>
                  </Link>  
             </div>
-            <div className="grid-item"> 
+            <div className="grid-item2"> 
             
                <Link to="/project5">
                <figure>
@@ -44,7 +44,7 @@ function AlsoWorks() {
                 </figure>
                 </Link>  
             </div>
-            <div className="grid-item"> 
+            <div className="grid-item3"> 
                <Link to="/project6">
                <figure>
                <img src={p3} />
@@ -53,7 +53,7 @@ function AlsoWorks() {
                 </figure> </Link>  
             </div>
             
-            <div className="grid-item"> 
+            <div className="grid-item4"> 
                <Link to="/project7">
                <figure>
                <img src={p4} />

@@ -10,22 +10,22 @@ function Project7Description() {
       <Header />
   </div>
   <div className = "bodyPart">
-    <div className="title"> 
-    <p>No More Stress</p>
+    <div className="title7"> 
+    No More Stress
     </div>
 
     <div className="project7"> 
         <div class="grid-container7 ">
-        <div class="pppart2">
+        <div class="grid-itemm1">
         <div className="projectDesc" > 
-        The <div className="bold"> physical, interactive installation</div>, created using <div className="bold">Arduino and Processing</div>, aimed to help users relieve <div className="bold"> stress</div> 
+        The <div className="bold"> physical, interactive installation</div>, created using <div className="bold">Arduino and Processing</div>, aimed to help users relieve <div className="bold"> stress </div> 
         and turn it into <div className="bold"> art piece</div> by typing the word that causes the stress and punching it. User can change the color and size of the flowers that appear every time they punch.
         Appearing flowers are the example of generative art.
 
         </div>
         
         </div>  
-        <div class="pppart3"  >
+        <div class="grid-itemm2"  >
         <div className="video"> 
         <YoutubeEmbed embedId="nfmChfvgI0Q"/>
       </div> 

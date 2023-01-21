@@ -285,7 +285,7 @@ First we conduct a competitor analysis. Aside from using and understanding Memen
            Refined Prototype
         </div>
         <div className="description10"> 
-        After we decided on the 5 items that we are putting inside the kit, 
+        After we decided on the 5 items that we are putting inside the kit,  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
   
         </div>

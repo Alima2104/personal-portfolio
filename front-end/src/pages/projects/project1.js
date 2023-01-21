@@ -160,7 +160,7 @@ We focused our research on User Interface elements and User Experience Flows –
             Interview Guide
             </div>
             <div className="description11"> 
-            We created an interview guide that allowed us to follow a structured interviewing process, ensuring that each team member records their interview in a consistent manner. With this guide we conducted 5 user interviews, recording video with the online tool Lookback.io and then scribing our findings on a Miro board.
+            We created an interview guide that allowed us to follow a structured interviewing process, ensuring that each team member records their interview in a consistent manner. With this guide we conducted 5 user interviews and then scribing our findings on a Miro board.
         </div>
 
         {/* <div id="competitorAnalysis"></div> */}
@@ -187,7 +187,7 @@ We focused our research on User Interface elements and User Experience Flows –
             Research Synthesis
             </div>
             <div className="description11"> 
-            After our interview we grouped and categorised the data into an Affinity Map which enabled us to have a clearer understanding of the user experience.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
 
         <div id="competitorAnalysis"></div>
@@ -221,7 +221,7 @@ We focused our research on User Interface elements and User Experience Flows –
             </div>
             <div className="description11"> 
             We conducted a brainstorming session where we re-framed the problem.
-We started thinking about the recording process, and spent time sparking ideas for possible innovative solutions as a collective team
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             </div>
 
         <div id="newHMWs"></div>
