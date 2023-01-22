@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter, Routes,  Route, Link} from "react-router-dom";
+import {Helmet} from "react-helmet";
 import Project1Description from './pages/projects/project1';
 import Project2Description from './pages/projects/project2';
 import Project3Description from './pages/projects/project3';
@@ -15,7 +16,14 @@ import About from './pages/aboutMe/about';
 
 const App = props => {
   return (
+    
     <>
+    <Helmet>
+                <meta charSet="utf-8" />
+                <title>Alima Zhagufarova</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+    </Helmet>
+
     <BrowserRouter  basename={process.env.PUBLIC_URL}>
     <Routes>
         <Route path = "/" element= {<LandingPage/>} />
