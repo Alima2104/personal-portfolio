@@ -16,7 +16,7 @@ import About from './pages/aboutMe/about';
 const App = props => {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter  basename={process.env.PUBLIC_URL}>
     <Routes>
         <Route path = "/" element= {<LandingPage/>} />
         <Route path = "/about" element={<About/>}/>
