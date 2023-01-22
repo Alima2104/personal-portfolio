@@ -1,3 +1,9 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
 /*!
  * weakmap-polyfill v2.0.4 - ECMAScript6 WeakMap polyfill
  * https://github.com/polygonplanet/weakmap-polyfill
