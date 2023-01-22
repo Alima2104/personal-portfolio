@@ -2,7 +2,7 @@
   "name": "front-end",
   "version": "0.1.0",
   "homepage": "https://alima2104.github.io/personal",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@splinetool/react-spline": "^2.2.3",
     "@splinetool/runtime": "^0.9.143",
