@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal/static/css/main.f1e95660.css",
-    "main.js": "/personal/static/js/main.f4d9651c.js",
+    "main.css": "/personal/static/css/main.d9cf3212.css",
+    "main.js": "/personal/static/js/main.6015f128.js",
     "static/js/227.daa329d1.chunk.js": "/personal/static/js/227.daa329d1.chunk.js",
     "static/js/526.0a1b1270.chunk.js": "/personal/static/js/526.0a1b1270.chunk.js",
     "static/js/232.53319fa9.chunk.js": "/personal/static/js/232.53319fa9.chunk.js",
@@ -55,7 +55,6 @@
     "static/media/6.png": "/personal/static/media/6.8be365b64288d7583258.png",
     "static/media/4.png": "/personal/static/media/4.17a476287238f3fd37cb.png",
     "static/media/2.png": "/personal/static/media/2.66796bdfcfd3f3cdb434.png",
-    "static/media/banner_horizontal.jpeg": "/personal/static/media/banner_horizontal.b1fec19c180e1c599d45.jpeg",
     "static/media/palette.png": "/personal/static/media/palette.6c5d8da350b68c19e23b.png",
     "static/media/5.png": "/personal/static/media/5.1592d454f786ded1e2a9.png",
     "static/media/pic1.jpeg": "/personal/static/media/pic1.05661384578cd8c6073f.jpeg",
@@ -63,9 +62,10 @@
     "static/media/banner21.jpeg": "/personal/static/media/banner21.576a1a44d371fef04dcd.jpeg",
     "static/media/linkedin_logo.png": "/personal/static/media/linkedin_logo.ba884e1f9ad4362348c1.png",
     "static/media/arrow.png": "/personal/static/media/arrow.d35dbcab11ec748ad964.png",
+    "static/media/blue.jpeg": "/personal/static/media/blue.bc62195d90cc94f5e030.jpeg",
     "index.html": "/personal/index.html",
-    "main.f1e95660.css.map": "/personal/static/css/main.f1e95660.css.map",
-    "main.f4d9651c.js.map": "/personal/static/js/main.f4d9651c.js.map",
+    "main.d9cf3212.css.map": "/personal/static/css/main.d9cf3212.css.map",
+    "main.6015f128.js.map": "/personal/static/js/main.6015f128.js.map",
     "227.daa329d1.chunk.js.map": "/personal/static/js/227.daa329d1.chunk.js.map",
     "526.0a1b1270.chunk.js.map": "/personal/static/js/526.0a1b1270.chunk.js.map",
     "232.53319fa9.chunk.js.map": "/personal/static/js/232.53319fa9.chunk.js.map",
@@ -73,7 +73,7 @@
     "787.22edae46.chunk.js.map": "/personal/static/js/787.22edae46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1e95660.css",
-    "static/js/main.f4d9651c.js"
+    "static/css/main.d9cf3212.css",
+    "static/js/main.6015f128.js"
   ]
 }
