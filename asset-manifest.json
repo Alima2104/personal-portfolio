@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal/static/css/main.8370b827.css",
-    "main.js": "/personal/static/js/main.77714346.js",
+    "main.css": "/personal/static/css/main.96903bba.css",
+    "main.js": "/personal/static/js/main.7091051e.js",
     "static/js/227.daa329d1.chunk.js": "/personal/static/js/227.daa329d1.chunk.js",
     "static/js/526.0a1b1270.chunk.js": "/personal/static/js/526.0a1b1270.chunk.js",
     "static/js/232.53319fa9.chunk.js": "/personal/static/js/232.53319fa9.chunk.js",
@@ -20,6 +20,7 @@
     "static/media/slushd_recording_AdobeExpress.gif": "/personal/static/media/slushd_recording_AdobeExpress.752b797111d74672521f.gif",
     "static/media/mockup2.png": "/personal/static/media/mockup2.8d27ae961f3767e4756a.png",
     "static/media/mockup3.png": "/personal/static/media/mockup3.0158b636ddcff73c8f34.png",
+    "static/media/slushd_map_final.png": "/personal/static/media/slushd_map_final.9f9c34d8bb409c8372e6.png",
     "static/media/usabilityTestResults.png": "/personal/static/media/usabilityTestResults.39f189f35fbf37228958.png",
     "static/media/prototype.jpg": "/personal/static/media/prototype.b19cfdd2e8fed9d43e6a.jpg",
     "static/media/culturalProbe.png": "/personal/static/media/culturalProbe.416180491952a3b40b9d.png",
@@ -30,6 +31,7 @@
     "static/media/items.jpg": "/personal/static/media/items.6fd5b0fcfff5dfc1f48c.jpg",
     "static/media/up1.png": "/personal/static/media/up1.b8c37de9733f4486286b.png",
     "static/media/secondmore.png": "/personal/static/media/secondmore.e31139e9ed84965ca5b0.png",
+    "static/media/pages.jpg": "/personal/static/media/pages.f8e9952104a312fa54eb.jpg",
     "static/media/hmw.png": "/personal/static/media/hmw.dff4f806875a5a7e4ce9.png",
     "static/media/zoom.png": "/personal/static/media/zoom.097f3ad8af9dceb00f93.png",
     "static/media/homeScreen.png": "/personal/static/media/homeScreen.0ec737f713fae27f9295.png",
@@ -55,9 +57,13 @@
     "static/media/agendaanalysis.png": "/personal/static/media/agendaanalysis.d4f34e31670d79084df2.png",
     "static/media/QR code.jpeg": "/personal/static/media/QR code.3cdb7e416b5a3e4d39f8.jpeg",
     "static/media/thirdmore.jpg": "/personal/static/media/thirdmore.528de13011bdd1c11815.jpg",
+    "static/media/alima_poster typeface optima.jpg": "/personal/static/media/alima_poster typeface optima.31f453ab80995529ca39.jpg",
+    "static/media/alima_poster_ballot.jpg": "/personal/static/media/alima_poster_ballot.4db95aa1afa9fc5fbc41.jpg",
+    "static/media/redesign_poster.jpg": "/personal/static/media/redesign_poster.4e39b874306e94ab8344.jpg",
     "static/media/wireframe.png": "/personal/static/media/wireframe.71a2b623c3dcdf924229.png",
     "static/media/greenheader.png": "/personal/static/media/greenheader.7271548462e8428ab3ef.png",
     "static/media/logover1.png": "/personal/static/media/logover1.f06e87b97160ccbbefa7.png",
+    "static/media/screens.jpg": "/personal/static/media/screens.fc0886b1ba4e15009607.jpg",
     "static/media/no_internet.jpeg": "/personal/static/media/no_internet.dd523d2201ba82883c01.jpeg",
     "static/media/Color Palette.png": "/personal/static/media/Color Palette.4ff52b8333d3584358be.png",
     "static/media/musaik_color_palette.png": "/personal/static/media/musaik_color_palette.228657f0ff8164726744.png",
@@ -65,8 +71,8 @@
     "static/media/logover2.png": "/personal/static/media/logover2.2212e715f6bc477ace2a.png",
     "static/media/arrow.png": "/personal/static/media/arrow.d35dbcab11ec748ad964.png",
     "index.html": "/personal/index.html",
-    "main.8370b827.css.map": "/personal/static/css/main.8370b827.css.map",
-    "main.77714346.js.map": "/personal/static/js/main.77714346.js.map",
+    "main.96903bba.css.map": "/personal/static/css/main.96903bba.css.map",
+    "main.7091051e.js.map": "/personal/static/js/main.7091051e.js.map",
     "227.daa329d1.chunk.js.map": "/personal/static/js/227.daa329d1.chunk.js.map",
     "526.0a1b1270.chunk.js.map": "/personal/static/js/526.0a1b1270.chunk.js.map",
     "232.53319fa9.chunk.js.map": "/personal/static/js/232.53319fa9.chunk.js.map",
@@ -74,7 +80,7 @@
     "787.22edae46.chunk.js.map": "/personal/static/js/787.22edae46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8370b827.css",
-    "static/js/main.77714346.js"
+    "static/css/main.96903bba.css",
+    "static/js/main.7091051e.js"
   ]
 }
