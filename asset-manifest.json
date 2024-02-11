@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal/static/css/main.f8d96fdc.css",
-    "main.js": "/personal/static/js/main.d03c0466.js",
+    "main.css": "/personal/static/css/main.f40e0853.css",
+    "main.js": "/personal/static/js/main.b216cc44.js",
     "static/js/227.daa329d1.chunk.js": "/personal/static/js/227.daa329d1.chunk.js",
     "static/js/526.0a1b1270.chunk.js": "/personal/static/js/526.0a1b1270.chunk.js",
     "static/js/232.53319fa9.chunk.js": "/personal/static/js/232.53319fa9.chunk.js",
@@ -65,14 +65,15 @@
     "static/media/logover1.png": "/personal/static/media/logover1.f06e87b97160ccbbefa7.png",
     "static/media/screens.jpg": "/personal/static/media/screens.fc0886b1ba4e15009607.jpg",
     "static/media/no_internet.jpeg": "/personal/static/media/no_internet.dd523d2201ba82883c01.jpeg",
+    "static/media/gmail_logo.png": "/personal/static/media/gmail_logo.961efc6cb2d08f4be64a.png",
     "static/media/Color Palette.png": "/personal/static/media/Color Palette.4ff52b8333d3584358be.png",
     "static/media/musaik_color_palette.png": "/personal/static/media/musaik_color_palette.228657f0ff8164726744.png",
     "static/media/linkedin_logo.png": "/personal/static/media/linkedin_logo.ba884e1f9ad4362348c1.png",
     "static/media/logover2.png": "/personal/static/media/logover2.2212e715f6bc477ace2a.png",
     "static/media/arrow.png": "/personal/static/media/arrow.d35dbcab11ec748ad964.png",
     "index.html": "/personal/index.html",
-    "main.f8d96fdc.css.map": "/personal/static/css/main.f8d96fdc.css.map",
-    "main.d03c0466.js.map": "/personal/static/js/main.d03c0466.js.map",
+    "main.f40e0853.css.map": "/personal/static/css/main.f40e0853.css.map",
+    "main.b216cc44.js.map": "/personal/static/js/main.b216cc44.js.map",
     "227.daa329d1.chunk.js.map": "/personal/static/js/227.daa329d1.chunk.js.map",
     "526.0a1b1270.chunk.js.map": "/personal/static/js/526.0a1b1270.chunk.js.map",
     "232.53319fa9.chunk.js.map": "/personal/static/js/232.53319fa9.chunk.js.map",
@@ -80,7 +81,7 @@
     "787.22edae46.chunk.js.map": "/personal/static/js/787.22edae46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8d96fdc.css",
-    "static/js/main.d03c0466.js"
+    "static/css/main.f40e0853.css",
+    "static/js/main.b216cc44.js"
   ]
 }
