@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal/static/css/main.f40e0853.css",
-    "main.js": "/personal/static/js/main.b216cc44.js",
+    "main.css": "/personal/static/css/main.dc6d2266.css",
+    "main.js": "/personal/static/js/main.735c4f69.js",
     "static/js/227.daa329d1.chunk.js": "/personal/static/js/227.daa329d1.chunk.js",
     "static/js/526.0a1b1270.chunk.js": "/personal/static/js/526.0a1b1270.chunk.js",
     "static/js/232.53319fa9.chunk.js": "/personal/static/js/232.53319fa9.chunk.js",
@@ -61,19 +61,23 @@
     "static/media/alima_poster_ballot.jpg": "/personal/static/media/alima_poster_ballot.4db95aa1afa9fc5fbc41.jpg",
     "static/media/redesign_poster.jpg": "/personal/static/media/redesign_poster.4e39b874306e94ab8344.jpg",
     "static/media/wireframe.png": "/personal/static/media/wireframe.71a2b623c3dcdf924229.png",
+    "static/media/GallientRegular.ttf": "/personal/static/media/GallientRegular.419a762c1efbc6a5bd7c.ttf",
     "static/media/greenheader.png": "/personal/static/media/greenheader.7271548462e8428ab3ef.png",
     "static/media/logover1.png": "/personal/static/media/logover1.f06e87b97160ccbbefa7.png",
     "static/media/screens.jpg": "/personal/static/media/screens.fc0886b1ba4e15009607.jpg",
+    "static/media/Helvetica Roman.ttf": "/personal/static/media/Helvetica Roman.b3084037424d33ecef25.ttf",
     "static/media/no_internet.jpeg": "/personal/static/media/no_internet.dd523d2201ba82883c01.jpeg",
     "static/media/gmail_logo.png": "/personal/static/media/gmail_logo.961efc6cb2d08f4be64a.png",
     "static/media/Color Palette.png": "/personal/static/media/Color Palette.4ff52b8333d3584358be.png",
     "static/media/musaik_color_palette.png": "/personal/static/media/musaik_color_palette.228657f0ff8164726744.png",
     "static/media/linkedin_logo.png": "/personal/static/media/linkedin_logo.ba884e1f9ad4362348c1.png",
+    "static/media/Helvetica Medium Condensed.otf": "/personal/static/media/Helvetica Medium Condensed.203373a835bf9be3a425.otf",
     "static/media/logover2.png": "/personal/static/media/logover2.2212e715f6bc477ace2a.png",
     "static/media/arrow.png": "/personal/static/media/arrow.d35dbcab11ec748ad964.png",
+    "static/media/bacgground.svg": "/personal/static/media/bacgground.7e79526ce44621cddf62.svg",
     "index.html": "/personal/index.html",
-    "main.f40e0853.css.map": "/personal/static/css/main.f40e0853.css.map",
-    "main.b216cc44.js.map": "/personal/static/js/main.b216cc44.js.map",
+    "main.dc6d2266.css.map": "/personal/static/css/main.dc6d2266.css.map",
+    "main.735c4f69.js.map": "/personal/static/js/main.735c4f69.js.map",
     "227.daa329d1.chunk.js.map": "/personal/static/js/227.daa329d1.chunk.js.map",
     "526.0a1b1270.chunk.js.map": "/personal/static/js/526.0a1b1270.chunk.js.map",
     "232.53319fa9.chunk.js.map": "/personal/static/js/232.53319fa9.chunk.js.map",
@@ -81,7 +85,7 @@
     "787.22edae46.chunk.js.map": "/personal/static/js/787.22edae46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f40e0853.css",
-    "static/js/main.b216cc44.js"
+    "static/css/main.dc6d2266.css",
+    "static/js/main.735c4f69.js"
   ]
 }
